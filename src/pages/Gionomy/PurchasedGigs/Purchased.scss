@@ -1,0 +1,145 @@
+.buyer-screen {
+  padding: 0;
+  display: flex;
+
+  .st1 {
+    color: rgb(194, 126, 0);
+  }
+  .st2 {
+    color: blue;
+  }
+  .st3 {
+    color: green;
+  }
+  .st-1 {
+    color: red;
+  }
+  .user-panel {
+    width: 200px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .buyer-panel {
+    width: 100%;
+    float: left;
+    padding-left: 16px;
+
+    .buyer-chat-panel {
+      width: calc(100% - 350px);
+      float: left;
+      .seller-chat {
+        float: left;
+        clear: both;
+      }
+      .buyer-chat {
+        float: right;
+        clear: both;
+      }
+    }
+  }
+  .product-list {
+    width: 350px;
+    float: left;
+    .widgetTitle {
+      padding: 14px 15px !important;
+    }
+    .search-buyer input {
+      padding: 0;
+    }
+    .search-buyer .MuiIconButton-root {
+      padding-top: 0;
+      border-radius: 0;
+      padding-bottom: 0;
+    }
+    .search-buyer .MuiPaper-rounded {
+      border-radius: 0;
+      width: 100%;
+    }
+    > .MuiPaper-root {
+      margin-top: 4px;
+      display: flex;
+      margin-bottom: 5px;
+    }
+    .product-image {
+      width: 115px;
+      float: left;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      img {
+        max-height: 100%;
+        width: 100%;
+      }
+    }
+    .selected-item {
+      background-color: #f8f8f8;
+    }
+    .product-details {
+      width: calc(100% - 75px);
+      float: left;
+      padding: 8px;
+      font-size: 12px;
+      .name-cost,
+      .delivery-status {
+        display: flex;
+      }
+      .delivery-status {
+        padding-top: 20px;
+      }
+      .product-cost {
+        width: 100px;
+        text-align: right;
+        float: right;
+        color: #03ac13;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .product-name {
+        width: calc(100% - 40px);
+        float: left;
+        line-height: normal;
+        font-weight: bold;
+        font-size: 13px;
+      }
+      .product-status {
+        width: 120px;
+        text-align: right;
+        float: right;
+      }
+      .product-delivery {
+        width: calc(100% - 120px);
+        float: left;
+        line-height: normal;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .buyer-screen {
+    display: block;
+    .user-panel {
+      float: none;
+      width: 100%;
+      clear: both;
+      margin-bottom: 10px;
+    }
+    .buyer-panel {
+      padding-left: 0;
+      float: none;
+      width: 100%;
+      clear: both;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .buyer-screen {
+    .buyer-panel .product-list,
+    .buyer-panel .buyer-chat-panel {
+      float: none;
+      width: 100%;
+      clear: both;
+      margin-bottom: 10px;
+    }
+  }
+}

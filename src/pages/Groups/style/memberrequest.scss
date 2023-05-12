@@ -1,0 +1,181 @@
+.memberRequestWrapper {
+  .adminHeader {
+    .top {
+      background: #fff;
+      padding: 10px;
+    }
+    .bottom {
+      background: #f4f6ff;
+      padding: 10px;
+      border-radius: 0px 0px 6px 6px;
+      display: flex;
+      gap: 20px;
+
+      .dropdown {
+        .dropdown-toggle {
+          background: transparent;
+          color: #5832e0;
+          border-color: #e5e5e5;
+          border-radius: 0;
+          display: flex;
+          justify-content: space-around;
+          i {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .top {
+    background: #fff;
+
+    .header {
+      display: flex;
+      padding: 15px;
+      border-bottom: 1px solid #e9ecfa;
+      span {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #010947;
+      }
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 0;
+      .caption {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #42434b;
+        margin-top: 20px;
+      }
+    }
+  }
+  .bottom {
+    .containerHeader {
+      span {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #010947;
+      }
+      border-bottom: 1px solid #e9ecfa;
+      padding-bottom: 10px;
+    }
+    .post {
+      background: #ffffff;
+      border: 1px solid #eaedf3;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+      border-radius: 6px;
+      padding: 20px 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 24px;
+      .postContent.gallery4 {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        figure {
+          margin-bottom: 0;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+        }
+        .galleryItem1 {
+          grid-area: 1 / 1 / span 1 / span 2;
+        }
+        .galleryItem2 {
+          grid-area: 1 / 3 / span 2 / span 2;
+        }
+        .galleryItem3 {
+          grid-area: 2 / 1 / span 3 / span 2;
+        }
+        .galleryItem4 {
+          grid-area: 3 / 3 / span 2 / span 2;
+          position: relative;
+          cursor: pointer;
+          p {
+            position: absolute;
+            color: #fff;
+            top: 45%;
+            left: 45%;
+            font-size: 50px;
+          }
+        }
+      }
+
+      .header {
+        display: flex;
+        .leftArea {
+          display: flex;
+          gap: 10px;
+          .profile-icon {
+            width: 54.22px;
+            height: 54.69px;
+            border-radius: 50%;
+          }
+          .profileDetails {
+            display: flex;
+            gap: 8px;
+            flex-direction: column;
+            .name {
+              font-family: ProximaNova-Regular;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 14px;
+              color: #42434b;
+            }
+            .position {
+              font-family: ProximaNova-Regular;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 99.7%;
+              color: #656565;
+            }
+            .time {
+              font-family: ProximaNova-Regular;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 12px;
+              color: #42434b;
+            }
+          }
+        }
+        .rightArea {
+          margin-left: auto;
+          cursor: pointer;
+          align-self: center;
+          .btn-outline-primary {
+            background-color: transparent;
+            color: #5931ea;
+          }
+          .btn-outline-success {
+            background-color: transparent;
+            color: #00c35a;
+            border-color: #00c35a;
+          }
+        }
+      }
+    }
+  }
+}

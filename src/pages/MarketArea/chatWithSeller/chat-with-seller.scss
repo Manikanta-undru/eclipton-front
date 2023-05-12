@@ -1,0 +1,24 @@
+.chat-with-seller-block {
+  background: #ffffff;
+  border: 1px solid #e9ecfa;
+  box-sizing: border-box;
+  border-radius: 0px 3px 3px 3px;
+  min-height: 60vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  }
+}
+textarea {
+  background: #ffffff;
+  border: 1px solid #ccd4ff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 100px;
+  resize: none;
+  width: 100%;
+}

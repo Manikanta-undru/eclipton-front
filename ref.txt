@@ -1,0 +1,49 @@
+wallet dashboard
+    get_all_pairs
+    transferhistory
+    get_user_completed_deposit
+
+Deposit
+    Crypto Currency
+        get_user_address
+        get_user_wallet_address
+        get_user_deposit ==
+        get_user_completed_deposit
+    Bankwire
+        get_admin_bankdetails
+        fiat_deposit==
+
+Send/Transfer
+    External
+        getLendingBalance ===
+        lending/transferAmount ==
+        lending/transferhistory ==
+    Internal
+        transferAmount
+        transferhistory
+
+Withdraw
+    user_withdraw == 
+    get_user_withdraw
+
+Trade
+    createOrders ==
+    cancelOrder ==
+    order history ===
+    trade history ===
+
+Verification
+    save_kyc_details
+    get_kyc_details
+
+
+    get_user_deposit
+    fiat_deposit
+    get lending balance (not even in documentation)
+    user_withdraw
+    createOrders
+    cancelOrder
+    order history (not even in documentation)
+    trade history (not even in documentation)
+    lending/transferAmount (for external transfer)
+    lending/transferhistory (for external transfer)

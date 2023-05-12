@@ -1,0 +1,270 @@
+// .landingPage{
+//     padding-top:70px;
+//     position: relative;
+//     min-height: 100vh;
+//     .hero{
+//         height: 600px;
+//         margin-top: 20px;
+//         padding: 20px;
+//         background: url(/static/media/banner1.f61a5588.png) no-repeat center right;
+//         background-size: contain;
+//         position: relative;
+//         .container{
+//             position: relative;
+//             .hero-captions{
+//                 position:absolute;
+//                 left: 0;
+//                 top:50px;
+//                 h2{
+//                     font-size: 60px;
+//                     text-transform: uppercase;
+//                     .capt1{
+//                         margin-right: 15px;
+//                     }
+//                     .capt2{
+//                         font-weight: bold;
+//                         color: #EFA9CB;
+//                     }
+//                     .capt3{
+//                         font-weight: bold;
+//                         color: #EFC03C;
+//                     }
+//                 }
+//                 .hr{
+//                     width: 200px;
+//                     height: 10px;
+//                     background: #111;
+//                     border-radius: 6px;
+//                     margin-bottom: 20px;
+//                 }
+//                 p{
+//                     max-width: 500px;
+//                     font-size: 26px;
+//                     color: #666;
+//                 }
+//                 label{
+//                     font-size: 18px;
+//                     font-weight: bold;
+//                     margin-top: 35px;
+//                 }
+//                 .socialLogins{
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: space-between;
+//                     flex-wrap: wrap;
+//                     max-width: 350px;
+//                 }
+//                 .twitter-login-btn{
+//                     max-height: 43px;
+//                     width: auto;
+//                 }
+//                 .google-login-btn{
+//                  width: 43px;
+//                  height: 43px;
+//                  background: url('../../assets/images/front/google-icon.svg') no-repeat center center;
+//                  background-size: contain;
+//                  border: 6px;
+//                 }
+//                 .google-login-btn *{
+//                     display: none;
+//                 }
+//                 .facebook-login-btn{
+//                     margin-top: 6px;
+//                  width: 43px;
+//                  height: 43px;
+//                  background: url('../../assets/images/front/fb-icon.svg') no-repeat center center;
+//                  border-radius: 6px;
+//                  background-size: contain;
+//                  i{
+//                      display: none;
+//                  }
+//                 }
+//             }
+//         }
+
+//     }
+//     section{
+//         margin-top:100px;
+//         position: relative;
+//         .section-img{
+//             img{
+//                 max-width: 100%;
+
+//             }
+//             .earn{
+//                 max-width: 85%;
+//             }
+//             &.right{
+//                 text-align: right;
+//             }
+//             &.spl{
+//                 .inner{
+//                     max-width:90%;
+//                 }
+//                 h4{
+//                     font-weight: bold;
+//                     font-size: 30px;
+//                     margin-bottom: 20px;
+//                 }
+//                 p{
+//                     font-size: 20px;
+//                     line-height: 24px;
+//                 }
+//                 .spl1{
+//                     padding:20px;
+//                     background-color: #FC7F73;
+//                     margin-bottom: 30px;
+//                     width: 85%;
+//                     border-radius: 15px;
+//                     margin-left: auto;
+//                 }
+//                 .spl2{
+//                     margin-top:70px;
+//                     padding:20px;
+//                     margin-bottom: 30px;
+//                     background-color: #15E0F1;
+//                     border-radius: 15px;
+//                 }
+//                 .spl3{
+//                     padding:20px;
+//                     margin-bottom: 30px;
+//                     background-color: #F8DB2F;
+//                     border-radius: 15px;
+//                 }
+//                 .spl4{
+//                     padding:20px;
+//                     margin-bottom: 30px;
+//                     background-color: #8861C6;
+//                     border-radius: 15px;
+//                     width: 85%;
+//                 }
+//             }
+//         }
+//         .section-details{
+//             h3{
+//                 margin-top:50px;
+//                 font-size: 40px;
+//                 font-weight: bold;
+//                 &.express{
+//                     color: #EE4C23;
+//                 }
+//                 &.thoughts{
+//                     margin-top:0;
+//                 }
+//                 &.join-today{
+//                     margin-top: 0;
+//                     font-size: 60px;
+//                 }
+//             }
+//             p{
+//                 margin-top:20px;
+//                 margin-bottom: 0;
+//                 font-size: 20px;
+//             }
+
+//         }
+//     }
+
+//     .signup-group{
+//         position: absolute;
+//         top:50%;
+//         left:50%;
+//         button{
+//             width: 150px;
+//             height: 50px;
+//             font-size: 30px;
+//             color:#fff;
+//             background: #05AADC;
+//             border-radius: 6px !important;
+//             border:0;
+//         }
+//         .join{
+
+//     display: block;
+//     width: 66px;
+//     margin: 0 auto;
+//     margin-top: -9px;
+//     padding-left: 20px;
+
+//         }
+//     }
+
+//     .last{
+//         padding-bottom: 150px;
+//         .right{
+//             min-height: 100px;
+//         }
+//     }
+//     @media screen and (max-width: 959px) {
+//         .hero{
+//             background-image: none;
+//             margin-top:0;
+//             height: 450px;
+//         }
+
+//       }
+//     @media screen and (max-width: 767px) {
+//         padding-top:50px;
+//         .hero{
+//             margin-top:0;
+//             height: auto;
+//             .hero-captions{
+//                 position: relative !important;
+//                  top:0 !important;
+//                 h2{
+//                     font-size: 30px !important;
+//                 }
+//                 p{
+//                     font-size: 20px !important;
+//                 }
+//                 label{
+//                     margin-top:0px !important;
+//                 }
+//             }
+//         }
+
+//         section{
+//             margin-top:30px !important;
+//             .section-details{
+//                 padding: 20px !important;
+//                 width: 90%;
+//                 margin: 0 auto;
+//             }
+//             .section-img{
+//                 padding: 20px !important;
+//                 width: 90%;
+//                 margin: 0 auto;
+//                 text-align: center;
+//             }
+//             h3{
+//                 margin-top: 0 !important;
+//             }
+//         }
+//         .spl{
+//             .inner{
+//                 margin:0;
+//                 max-width:100% !important;
+//             }
+//             .spl1, .spl2, .spl3, .spl4{
+//                 width: 90% !important;
+//                 margin:0 auto;
+//             }
+//             .spl2{
+//                 margin-top: 0 !important;
+//             }
+//         }
+
+//         .twitter-login-btn{
+//             max-height: 36px  !important;
+//         }
+//         .google-login-btn{
+//          width: 36px !important;
+//          height: 36px !important;
+//         }
+//         .facebook-login-btn{
+//          width: 36px !important;
+//          height: 36px !important;
+//         }
+
+//     }
+// }

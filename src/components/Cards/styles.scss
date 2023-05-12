@@ -1,0 +1,237 @@
+.card {
+  .dropdown {
+    float: right;
+  }
+  background: #fff;
+  border: 1px solid #ccd4ff;
+  margin-bottom: 20px;
+  width: 100%;
+  .card-body {
+    padding-top: 0;
+  }
+  .card-title {
+    color: #050505;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .card-sub-title {
+    font-size: 12px !important;
+    color: #5931ea;
+    font-weight: 600;
+    &.fixed {
+      margin-top: 5px;
+      line-height: 1;
+      width: 200px;
+    }
+    .price-details {
+      font-weight: bold;
+      color: #523ce1;
+      font-size: 15px;
+
+      span.off {
+        background: rgba(0, 195, 90, 0.1);
+        border-radius: 8.5px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 120%;
+        text-align: center;
+        color: #00c35a;
+        padding: 2px 5px 1px;
+        position: relative;
+        top: -1px;
+        margin-left: 5px;
+      }
+
+      span.strike {
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        text-decoration: line-through !important;
+        color: #a1a5c5;
+      }
+    }
+  }
+  .card-description {
+    font-size: 13px;
+    overflow: hidden;
+    max-height: 36px;
+    display: block;
+  }
+  // .card-stats{
+  //     font-size: 14px;
+  //     margin-top: 20px;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: flex-start;
+  //     div{
+  //         margin-right: 10px;
+  //     }
+  // }
+}
+.leftThumbCard {
+  overflow: hidden;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: 1px solid #edf2f9 !important;
+  box-shadow: 0 0.75rem 1.5rem #12263f05;
+  .card-sub-title {
+    margin-left: auto;
+    margin-right: 0 !important;
+    font-size: 12px !important;
+  }
+  .dropdown {
+    position: absolute;
+    right: 8px;
+    top: 15px;
+  }
+  .card-description {
+    position: relative;
+  }
+  .readmore {
+    font-size: 12px;
+    line-height: 1.7;
+    display: block;
+  }
+  .highlight-profile-pic {
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .highlight-userinfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .card-thumb {
+    border: 10px solid #fff;
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .card-body {
+    width: calc(100% - 180px);
+    padding: 15px;
+    // height: 180px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  .card-stats {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    position: absolute;
+    bottom: -60px;
+    color: #050505;
+    font-size: 0.85rem;
+    font-weight: 400;
+    div {
+      margin-right: 20px;
+    }
+    i {
+      color: #6c757d;
+      font-size: 0.9rem;
+      margin-left: 3px;
+      text-decoration: none;
+      font-style: normal;
+    }
+  }
+}
+.bloggersCard {
+  .card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .card-head-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-head-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .card-thumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+  }
+  .more {
+    color: #bfbfbf;
+    font-size: 20px !important;
+    padding: 5px 10px;
+  }
+  .card-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+    margin: 0 auto 20px;
+  }
+}
+.articleCard {
+  .card-head {
+    align-items: flex-start !important;
+  }
+  .comment-form {
+    input {
+      width: 100%;
+      border-radius: 10px;
+    }
+    button {
+      margin: 0;
+      margin-top: -4px;
+      margin-right: -6px;
+      height: 38px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      z-index: 0;
+    }
+  }
+}
+
+.ce-block__content {
+  margin: 0 !important;
+}
+@media only screen and (max-width: 680px) {
+  .leftThumbCard {
+    .card-stats {
+      width: 100%;
+      padding-top: 15px;
+      position: initial;
+      bottom: 0;
+    }
+  }
+}
+// .post-image-thumb-shared{
+//     display: flex;
+//     height: 200px;
+//     img{
+//         max-height: 100%;
+//     }
+// }

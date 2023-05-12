@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 28.59 31.14"
+   version="1.1"
+   sodipodi:docname="logo-icon.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.36478405"
+     inkscape:rotation="-90"
+     inkscape:cx="-393.38343"
+     inkscape:cy="-1171.9262"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#512e92;}</style>
+  </defs>
+  <path
+     d="m -98.604809,-878.12498 a 117.42525,117.42525 0 0 1 118.903143,-118.36573 118.36573,118.36573 0 1 1 0,236.73146 117.42525,117.42525 0 0 1 -118.903143,-118.36573 z m 221.683829,0 a 102.78069,102.78069 0 1 0 -205.561374,0 102.78069,102.78069 0 1 0 205.561374,0 z"
+     id="path6"
+     style="stroke-width:13.4354" />
+  <path
+     d="m 149.27802,-753.98204 6.31463,8.06123 a 194.54436,194.54436 0 0 0 40.57486,-205.42701 l -8.32994,6.31463 a 182.98993,182.98993 0 0 1 10.07653,88.40483 180.03414,180.03414 0 0 1 -48.63608,102.64632 z"
+     id="path8"
+     style="stroke-width:13.4354" />
+  <path
+     d="m 57.783053,-702.79322 a 185.54265,185.54265 0 0 1 -63.549365,2.82142 179.89979,179.89979 0 0 1 -157.193988,-203.14299 179.76544,179.76544 0 0 1 203.680416,-155.71611 184.06476,184.06476 0 0 1 84.239854,31.9762 l 8.19558,-6.3146 a 194.41,194.41 0 0 0 -90.688835,-36.2755 189.70762,189.70762 0 0 0 -214.966145,165.12082 189.70762,189.70762 0 0 0 165.7926413,214.96614 198.57497,198.57497 0 0 0 71.6105957,-3.89626 z"
+     id="path10"
+     style="stroke-width:13.4354" />
+  <circle
+     class="cls-1"
+     cx="20.298336"
+     cy="-1068.9075"
+     r="37.887783"
+     id="circle12"
+     style="stroke-width:13.4354" />
+</svg>

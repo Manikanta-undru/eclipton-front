@@ -1,0 +1,171 @@
+.topThumbCard {
+  float: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 31.8% !important;
+  margin-left: 1.5%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  // box-shadow: 0 0 4px #0000002e;
+  border: 1px solid #edf2f9 !important;
+  box-shadow: 0 0.75rem 1.5rem #12263f05;
+  .pull-right {
+    float: right;
+  }
+  .card-title {
+    // margin-top: 10px;
+    // font-size: 14px !important;
+    // color:#444;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 13px !important;
+    color: #6c757d;
+    font-weight: 400;
+    height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .rating {
+      flex-shrink: 0;
+      color: #5931ea;
+      font-size: 12px;
+    }
+  }
+  .userinfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .pic {
+      width: 32px;
+      height: 32px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-right: 10px;
+    }
+    .fa-star {
+      color: #5931ea;
+    }
+  }
+  .body {
+    width: 100%;
+    padding: 10px;
+    height: 152px;
+  }
+  .dots {
+    width: 3px !important;
+  }
+  .block {
+    display: block;
+    width: 100%;
+  }
+  .thumb {
+    border: 10px solid #fff;
+    width: 100%;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.25rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .highlight-title {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    overflow: hidden;
+  }
+  .highlight-price {
+    font-weight: bolder;
+  }
+  .highlight-category {
+    font-weight: normal;
+    color: #5931ea;
+  }
+  .highlight-userinfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0 5px;
+  }
+  .highlight-profile-pic {
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .highlight-desc {
+    width: calc(100% - 100px);
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    height: 100px;
+    box-sizing: border-box;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .highlight-meta {
+    // border-top: 1px solid #e5e5e5;
+    // padding: 15px 0;
+    // position: absolute;
+    // width: 90%;
+    // bottom: 5px;
+    // left: 10px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // font-size: 12px;
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-top: 1px solid #e9ecfa;
+    /* padding-top: 4px; */
+    position: absolute;
+    width: 90%;
+    /* bottom: 0; */
+    padding: 15px 0;
+    font-size: 0.7rem;
+  }
+  .highlight-price,
+  .price {
+    color: #3c49f1;
+    font-size: 0.7rem;
+    margin-left: 5px;
+  }
+  @media screen and (max-width: 1150px) {
+    width: 48.5% !important;
+  }
+  @media only screen and (max-width: 600px) {
+    width: 98.5% !important;
+  }
+  .waiting {
+    background-color: #5931ea;
+    color: #fff;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+}
+.topThumbCard {
+  .userinfo {
+    .name {
+      color: #050505;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+}

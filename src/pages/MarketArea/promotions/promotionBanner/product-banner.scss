@@ -1,0 +1,46 @@
+.uploadArea {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ced4da;
+  &.enter,
+  &:hover {
+    border: 2px dashed #444;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  .droppedFiles {
+    display: flex;
+    flex-wrap: wrap;
+    .file {
+      position: relative;
+      margin: 10px;
+      border: 1px solid #ddd;
+      .fa-times {
+        cursor: pointer;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 0;
+        padding: 5px;
+        background-color: #ddd;
+      }
+      img {
+        display: block;
+        width: 150px;
+      }
+    }
+  }
+}
+
+.codex-editor {
+  border-radius: 0.25rem;
+}
+.codex-editor {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 0;
+}

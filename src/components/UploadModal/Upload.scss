@@ -1,0 +1,132 @@
+.font12 {
+  font-size: 12px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.upload-file-modal {
+  .uploadArea {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ced4da;
+    &.enter,
+    &.over {
+      border: 2px dashed #444;
+      background-color: #ddd;
+    }
+    .droppedFiles {
+      display: flex;
+      flex-wrap: wrap;
+      .file {
+        position: relative;
+        margin: 10px;
+        border: 1px solid #ddd;
+        .fa-times {
+          cursor: pointer;
+          position: absolute;
+          z-index: 2;
+          right: 0;
+          top: 0;
+          padding: 5px;
+          background-color: #ddd;
+        }
+        img {
+          display: block;
+          width: 150px;
+        }
+        video {
+          width: 150px;
+          height: 70px;
+        }
+      }
+    }
+  }
+
+  .MuiDialog-paperFullWidth {
+    max-width: 700px;
+    padding: 30px;
+    > div {
+      padding: 0;
+    }
+  }
+  h2 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .dialog-title {
+    padding-bottom: 10px;
+  }
+  .dialog-upload-desc {
+    display: flex;
+    padding-bottom: 16px;
+    .upload-btn {
+      width: calc(100% - 380px);
+      float: left;
+      text-align: left;
+      padding-top: 8px;
+    }
+    .upload-note {
+      width: 380px;
+      float: right;
+      text-align: right;
+      font-size: 14px;
+      line-height: normal;
+      max-width: 380px;
+      font-weight: bold;
+    }
+    .note-text {
+      color: #ba000d;
+      font-weight: normal;
+    }
+  }
+  .uploaded-section {
+    padding: 16px 8px 16px 8px;
+    min-height: 250px;
+    position: relative;
+    .drag-droup {
+      position: absolute;
+      bottom: 15px;
+      left: 40%;
+      opacity: 0.5;
+    }
+  }
+  .files-container {
+    display: flex;
+    .uploaded-file {
+      margin-right: 8px;
+      width: 75px;
+    }
+    .MuiPaper-root {
+      width: 75px;
+      height: 75px;
+    }
+    .file-name {
+      font-size: 12px;
+      opacity: 0.5;
+      padding-top: 4px;
+    }
+  }
+  .MuiButton-root {
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-transform: none;
+    color: #fff;
+    font-size: 12px;
+  }
+  .submit-payment {
+    margin-top: 25px;
+  }
+}
+
+.icon-file {
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 13px;
+}

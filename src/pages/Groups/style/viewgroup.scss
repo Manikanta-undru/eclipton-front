@@ -1,0 +1,580 @@
+.viewUserGroupActivity .CreateNewPostArea {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #ffffff;
+  border: 1px solid #eaedf3;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+  border-radius: 6px;
+}
+.viewUserGroupActivity .CreateNewPostArea textArea {
+  height: 77px;
+  padding: 10px;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #acaebe;
+  border: none;
+  resize: none;
+}
+.viewUserGroupActivity .CreateNewPostArea .line {
+  height: 1px;
+  border: 1px solid #e9ecfa;
+}
+.viewUserGroupActivity .CreateNewPostArea .toolsArea {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.viewUserGroupActivity .CreateNewPostArea .toolsArea .left-section {
+  margin-left: 16px;
+}
+.viewUserGroupActivity .CreateNewPostArea .toolsArea .left-section img {
+  margin-right: 10px;
+}
+.viewUserGroupActivity .CreateNewPostArea .toolsArea .left-section .connection {
+  background: #ececec;
+  border-radius: 12px;
+  padding: 5px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #111111;
+}
+.viewUserGroupActivity .CreateNewPostArea .toolsArea .right-section {
+  margin-left: auto;
+  margin-right: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.viewUserGroupActivity .CreateNewPostArea .toolsArea .right-section img {
+  object-fit: contain;
+}
+
+.viewUserGroupActivity .highlightArea {
+  margin-top: 20px;
+}
+.viewUserGroupActivity .highlightArea .header {
+  display: flex;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #42434b;
+}
+.viewUserGroupActivity .highlightArea .header img {
+  margin-left: auto;
+  object-fit: contain;
+}
+.viewUserGroupActivity .highlightArea .contentsArea {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: #ffffff;
+  border: 1px solid #eaedf3;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+  border-radius: 6px;
+  padding: 16px;
+}
+.viewUserGroupActivity .highlightArea .contentsArea .contents.collapse {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents.collapse
+  .collapse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents.collapse
+  .collapse
+  img {
+  width: 80px;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents.collapse
+  .collapse
+  video {
+  width: 80px;
+  height: 64px;
+}
+.viewUserGroupActivity .highlightArea .contentsArea .contents {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.viewUserGroupActivity .highlightArea .contentsArea .contents .content-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  color: #010947;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .content-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 110%;
+  color: #8f8f8f;
+}
+.viewUserGroupActivity .highlightArea .contentsArea .contents .header {
+  display: flex;
+}
+.viewUserGroupActivity .highlightArea .contentsArea .contents .header span {
+  flex-basis: 140px;
+  flex-grow: 1;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  color: #010947;
+}
+.viewUserGroupActivity .highlightArea .contentsArea .contents .header img {
+  margin-left: auto;
+  object-fit: none;
+  flex-shrink: 14;
+}
+.viewUserGroupActivity .highlightArea .contentsArea .contents .footerArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .footerArea
+  .priceDetails {
+  display: flex;
+  flex-direction: column;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .footerArea
+  .priceDetails
+  .price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #00c35a;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .footerArea
+  .priceDetails
+  .purchaseCountDetails {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  color: #000000;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .footerArea
+  .applicantDetails {
+  background: #ececec;
+  width: 78.65px;
+  height: 18.79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #111111;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .footerArea
+  button {
+  background: #5832e0;
+  width: 49.14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  border-radius: 3px;
+  height: 28px;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .footerArea
+  .dateArea {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 110%;
+  color: #8f8f8f;
+}
+.viewUserGroupActivity
+  .highlightArea
+  .contentsArea
+  .contents
+  .footerArea
+  .commentsArea {
+  display: flex;
+  gap: 3px;
+  margin-left: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 110%;
+  color: #8f8f8f;
+}
+
+.viewUserGroupActivity .post {
+  background: #ffffff;
+  border: 1px solid #eaedf3;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+  border-radius: 6px;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 24px;
+}
+.viewUserGroupActivity .post .postContent.gallery4 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.viewUserGroupActivity .post .postContent.gallery4 figure {
+  margin-bottom: 0;
+}
+.viewUserGroupActivity .post .postContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.viewUserGroupActivity .post .postContent.gallery4 .galleryItem1 {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+.viewUserGroupActivity .post .postContent.gallery4 .galleryItem2 {
+  grid-area: 1 / 3 / span 2 / span 2;
+}
+.viewUserGroupActivity .post .postContent.gallery4 .galleryItem3 {
+  grid-area: 2 / 1 / span 3 / span 2;
+}
+.viewUserGroupActivity .post .postContent.gallery4 .galleryItem4 {
+  grid-area: 3 / 3 / span 2 / span 2;
+  position: relative;
+  cursor: pointer;
+}
+.viewUserGroupActivity .post .postContent.gallery4 .galleryItem4 p {
+  position: absolute;
+  color: #fff;
+  top: 45%;
+  left: 45%;
+  font-size: 50px;
+}
+.viewUserGroupActivity .post .header {
+  display: flex;
+}
+.viewUserGroupActivity .post .header .leftArea {
+  display: flex;
+  gap: 10px;
+}
+.viewUserGroupActivity .post .header .leftArea .profile-icon {
+  width: 54.22px;
+  height: 54.69px;
+  border-radius: 50%;
+}
+.viewUserGroupActivity .post .header .leftArea .profileDetails {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+.viewUserGroupActivity .post .header .leftArea .profileDetails .name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #42434b;
+}
+.viewUserGroupActivity .post .header .leftArea .profileDetails .position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 99.7%;
+  color: #656565;
+}
+.viewUserGroupActivity .post .header .leftArea .profileDetails .time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #42434b;
+}
+.viewUserGroupActivity .post .header .rightArea {
+  margin-left: auto;
+  cursor: pointer;
+}
+.viewUserGroupActivity .post .post-description {
+  margin-top: 10px;
+}
+.viewUserGroupActivity .post .post-description p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #42434b;
+  width: 60%;
+}
+.viewUserGroupActivity .post .shareDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.viewUserGroupActivity .post .shareDetails span {
+  font-size: 12px;
+  line-height: 25px;
+  color: #42434b;
+}
+.viewUserGroupActivity .post .line {
+  border-bottom: 1px solid #e5e5e5;
+}
+.viewUserGroupActivity .post .actionButtons {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.viewUserGroupActivity .post .actionButtons .action:nth-child(2) {
+  margin-left: 27px;
+}
+.viewUserGroupActivity .post .actionButtons .action {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.viewUserGroupActivity .post .replySection .parentComments {
+  max-height: 300px !important;
+  overflow: scroll;
+}
+.viewUserGroupActivity .post .replySection .comment {
+  grid-template-columns: 0.05fr 1fr;
+}
+.viewUserGroupActivity .post .replySection .reply {
+  grid-template-columns: 0.13fr 1fr;
+  margin-top: 5px;
+}
+.viewUserGroupActivity .post .replySection .reply .profile-img {
+  justify-self: flex-end;
+}
+.viewUserGroupActivity .post .replySection .reply .reply-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.viewUserGroupActivity .post .replySection .comment,
+.viewUserGroupActivity .post .replySection .reply {
+  display: grid;
+  gap: 10px;
+}
+.viewUserGroupActivity .post .replySection .comment .profile-img,
+.viewUserGroupActivity .post .replySection .reply .profile-img {
+  width: 36.78px;
+  height: 37.31px;
+  border-radius: 50%;
+}
+.viewUserGroupActivity .post .replySection .comment .comment-Text,
+.viewUserGroupActivity .post .replySection .reply .comment-Text {
+  display: flex;
+  background: #f4f5fc;
+  padding: 5px;
+}
+.viewUserGroupActivity .post .replySection .comment .comment-Text .leftArea,
+.viewUserGroupActivity .post .replySection .reply .comment-Text .leftArea {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.viewUserGroupActivity
+  .post
+  .replySection
+  .comment
+  .comment-Text
+  .leftArea
+  .name,
+.viewUserGroupActivity
+  .post
+  .replySection
+  .reply
+  .comment-Text
+  .leftArea
+  .name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #42434b;
+}
+.viewUserGroupActivity
+  .post
+  .replySection
+  .comment
+  .comment-Text
+  .leftArea
+  .position,
+.viewUserGroupActivity
+  .post
+  .replySection
+  .reply
+  .comment-Text
+  .leftArea
+  .position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #656565;
+}
+.viewUserGroupActivity
+  .post
+  .replySection
+  .comment
+  .comment-Text
+  .leftArea
+  .content,
+.viewUserGroupActivity
+  .post
+  .replySection
+  .reply
+  .comment-Text
+  .leftArea
+  .content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #42434b;
+}
+.viewUserGroupActivity .post .replySection .comment .comment-Text .rightArea,
+.viewUserGroupActivity .post .replySection .reply .comment-Text .rightArea {
+  margin-left: auto;
+}
+.viewUserGroupActivity .post .replySection .writeAComment {
+  display: grid;
+  grid-template-columns: 0.05fr 1fr;
+}
+.viewUserGroupActivity .post .replySection .writeAComment img {
+  width: 36.78px;
+  height: 37.31px;
+  border-radius: 50%;
+}
+.viewUserGroupActivity .post .replySection .writeAComment input {
+  border: none;
+}
+.viewUserGroupActivity .post .replySection .writeAComment input :focus {
+  outline: none;
+}
+.viewUserGroupActivity .post .replySection .moreComments {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #42434b;
+}
+.viewUserGroupActivity .post .replySection .actionIcons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.viewUserGroupActivity .post .replySection .actionIcons img {
+  margin-right: 10px;
+}
+.viewUserGroupActivity .post .replySection .actionIcons img,
+.viewUserGroupActivity .post .replySection .actionIcons span {
+  cursor: pointer;
+}
+
+.viewUserGroupActivity .banner-img {
+  flex-shrink: 0;
+  width: 65px;
+  box-shadow: 0 3px 5px #0000003b;
+  height: 65px;
+  border-radius: 50%;
+  background-size: 34%;
+  margin-right: 20px;
+}
+
+.viewUserGroupActivity .gtitle {
+  color: #010947 !important;
+  font-size: 1rem;
+  margin-bottom: 5px !important;
+}
+
+.viewUserGroupActivity .gsubtitle {
+  color: #8d8d8d;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.post .hide {
+  display: none;
+}
+.close-btn {
+  position: absolute;
+  padding: 0px 4px;
+  left: 74px !important;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 10px;
+  top: 10px;
+  color: #fff;
+  background: #a90000ba;
+}
+.displayPostImg {
+  max-width: 100px !important;
+}
+.custom-backdrop {
+  opacity: 0 !important;
+}
+
+@media screen and (max-width: 760px) {
+  .viewUserGroupActivity .banner-body {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .viewUserGroupActivity .contentsArea {
+    display: block !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .viewUserGroupActivity .contentsArea {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}

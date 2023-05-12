@@ -1,0 +1,74 @@
+.create-group {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.create-group h3 {
+  color: #010947;
+  font-size: 16px;
+  border-bottom: 1px solid #e9ecfa;
+  padding-bottom: 10px;
+}
+.create-group .text-muted {
+  color: #a1a5c5 !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.create-group i {
+  color: #5832e0;
+  width: 12px;
+}
+.create-group label {
+  color: #010947;
+  font-weight: 600;
+  font-size: 16px;
+}
+.create-group .dropdown .btn {
+  background: transparent;
+  color: #42434b;
+  font-size: 14px;
+  border: 1px solid #e5e5e5 !important;
+  text-align: left;
+  height: 40px;
+}
+.create-group .dropdown .btn .inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+.create-group .dropdown-menu a.dropdown-item .inline-block {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #42434b;
+  line-height: 20px;
+}
+.create-group .purchase-plan span {
+  color: #42434b;
+  font-size: 14px;
+  font-weight: 400;
+}
+.create-group .dropdownModal .modal-content .modal-header h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #010947;
+}
+
+input[type='file'] {
+  visibility: visible;
+  position: relative;
+}
+.hint {
+  color: red;
+}
+
+//input errors
+.input_error {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+.input_success {
+  color: #02c702;
+  font-size: 12px;
+  font-weight: 500;
+}

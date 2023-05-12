@@ -1,0 +1,79 @@
+.gig-widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 200px;
+  margin-left: -220px;
+  /* margin-top: 140px; */
+  height: 100%;
+  top: 0;
+  .rating {
+    .fa {
+      color: orange;
+      margin: 2px;
+    }
+  }
+  .mainIcon {
+    font-size: 18px;
+    width: 24px;
+
+    color: #777;
+  }
+  .blog-widget-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    .clapped {
+      margin-right: 20px;
+      img {
+        width: 44px;
+        margin-top: -4px;
+        cursor: pointer;
+      }
+    }
+    .item {
+      cursor: pointer;
+      margin-bottom: 10px;
+      display: flex;
+      font-size: 12px;
+      align-items: center;
+      justify-content: flex-start;
+      img {
+        width: 20px;
+        margin-right: 10px;
+      }
+      p {
+        font-size: 10px;
+        color: #666;
+        width: 80%;
+        padding-left: 35px;
+      }
+    }
+    .button {
+      width: 80%;
+
+      max-width: 100px !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    .item {
+      margin: 0 10px;
+    }
+    .blog-widget-inner {
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .button {
+      margin-bottom: 10px;
+    }
+  }
+}

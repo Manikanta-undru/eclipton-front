@@ -1,0 +1,124 @@
+.viewEditGroupModerator .groupAreaWrapper {
+  background-color: #fff;
+}
+.viewEditGroupModerator .groupAreaWrapper .group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .file {
+  display: none;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .groupImg {
+  border-radius: 50%;
+  border: 5px solid #656565;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .groupImg .changeImg {
+  position: absolute;
+  top: 70%;
+  height: 80px;
+  width: 160px;
+  padding: 10px;
+  background: rgba(38, 38, 38, 0.6);
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .groupName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #42434b;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .groupAccessType {
+  display: flex;
+  gap: 15px;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .groupAccessType img {
+  object-fit: contain;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .groupAccessType span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140.7%;
+  color: #42434b;
+}
+.viewEditGroupModerator .groupAreaWrapper .group .groupDescription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.7%;
+  color: #656565;
+}
+
+.viewEditGroupModerator .list-group .active {
+  color: #010947;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #010947;
+}
+
+.viewEditGroupModerator .list-group li {
+  cursor: pointer;
+}
+
+.viewEditGroupModerator .list-group .badge-primary {
+  background-color: #f94162;
+  color: #fff;
+}
+
+.viewEditGroupModerator .banner-img {
+  flex-shrink: 0;
+  width: 65px;
+  box-shadow: 0 3px 5px #0000003b;
+  height: 65px;
+  border-radius: 50%;
+  background-size: 34%;
+  margin-right: 20px;
+}
+
+.viewEditGroupModerator .gtitle {
+  color: #010947 !important;
+  font-size: 1rem;
+  margin-bottom: 5px !important;
+}
+
+.viewEditGroupModerator .gsubtitle {
+  color: #8d8d8d;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 760px) {
+  .viewEditGroupModerator .banner-body {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .viewEditGroupModerator .contentsArea {
+    display: block !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .viewEditGroupModerator .contentsArea {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="Group_1242" data-name="Group 1242" transform="translate(-1393 -24)">
+    <circle id="Ellipse_186" data-name="Ellipse 186" cx="23" cy="23" r="23" transform="translate(1393 24)" fill="#e8e8e8"/>
+    <g id="Group_1234" data-name="Group 1234" transform="translate(-5)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(1406.294 34)">
+        <g id="message-square" transform="translate(-0.019)">
+          <rect id="Rectangle_571" data-name="Rectangle 571" width="29" height="29" transform="translate(-0.275)" fill="#5832e0" opacity="0"/>
+          <path id="Path_1282" data-name="Path 1282" d="M22.43,3H5.605A3.605,3.605,0,0,0,2,6.605V24.632a1.2,1.2,0,0,0,1.815,1.034l5.4-3.269a1.2,1.2,0,0,1,.661-.168H22.43a3.605,3.605,0,0,0,3.605-3.605V6.605A3.605,3.605,0,0,0,22.43,3ZM9.211,13.816a1.2,1.2,0,1,1,1.2-1.2A1.2,1.2,0,0,1,9.211,13.816Zm4.807,0a1.2,1.2,0,1,1,1.2-1.2A1.2,1.2,0,0,1,14.018,13.816Zm4.807,0a1.2,1.2,0,1,1,1.2-1.2A1.2,1.2,0,0,1,18.825,13.816Z" transform="translate(0.422 0.605)" fill="#5832e0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,124 @@
+$xsWidth: 561px;
+$smWidth: 767px;
+$mdWidth: 991px;
+
+.filters-and-menu {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #e9ecfa;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+
+  .top {
+    display: grid;
+    grid-template-columns: 180px auto 180px;
+    @media (max-width: $mdWidth) {
+      display: block;
+    }
+    > div {
+      position: relative;
+      .icon {
+        position: absolute;
+        left: 20px;
+        top: 11px;
+      }
+    }
+    select,
+    input,
+    button {
+      position: relative;
+      height: 45px;
+      border: none;
+      display: block;
+      width: 100%;
+    }
+    input,
+    select {
+      padding-left: 35px;
+    }
+    button {
+      text-align: center;
+      background: var(--color-1);
+      color: #fff;
+      font-size: 14px;
+      border-radius: 0;
+      margin: 0;
+    }
+    select {
+      width: 90%;
+    }
+    input {
+      border-left: 1px solid #e9ecfa;
+      border-right: 1px solid #e9ecfa;
+    }
+  }
+
+  .bottom {
+    border-top: 1px solid #e9ecfa;
+    padding: 0 15px;
+
+    a {
+      display: inline-block;
+      padding: 15px 20px;
+      color: #42434b;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+    }
+    a.active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.classifieds active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.deals active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.electronics active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.entertainment active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.family active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.hobbies active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.home_and_garden active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.housing active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.vehicles active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+  }
+}
+.marketVdrop {
+  float: right;
+  margin-top: 9px;
+  background: #ebe9f3;
+  padding: 3px 3px 0px 3px;
+  border-radius: 50px;
+  .fa {
+    color: var(--color-1);
+  }
+  .dropdown-item {
+    padding: 6px 20px !important;
+    text-align: left !important;
+  }
+}

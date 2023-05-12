@@ -1,0 +1,24 @@
+.popularArticles {
+  img {
+    width: 50px;
+    border-radius: 5px;
+  }
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p {
+    font-size: 14px !important;
+    line-height: 16px;
+  }
+  .thumbnail {
+    box-shadow: none;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50px;
+    border: 1px solid #f7f9fc;
+  }
+}

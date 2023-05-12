@@ -1,0 +1,165 @@
+.balanceWidget {
+  .icon {
+    height: 10px;
+    margin-right: 10px;
+  }
+  .widgetTitle {
+    // border-bottom:0 !important;
+    &.pb1 {
+      border-bottom: 1px solid #fff !important;
+      margin-bottom: 15px !important;
+    }
+  }
+  .widgetBody {
+    padding: 0 15px 15px;
+    width: 100%;
+  }
+  .balance {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  .full-show {
+    display: none;
+  }
+  .see-more {
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+  }
+
+  #walletWidgetBody {
+    height: 0;
+    padding: 0;
+    transition: all 0.2s ease;
+    &.open {
+      padding: 0 15px 15px;
+      height: auto;
+      transition: all 0.2s ease;
+    }
+  }
+  h4 {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    margin-top: 16px;
+    font-weight: normal;
+  }
+  .full-show {
+    display: none;
+  }
+  .full-hide {
+    display: block;
+  }
+  &.full {
+    .full-show {
+      display: block;
+    }
+    .full-hide {
+      display: none;
+    }
+    #walletWidgetBody {
+      padding: 0 15px 15px;
+      height: auto;
+      transition: all 0.2s ease;
+    }
+  }
+}
+.allBalance {
+  .all-balance {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 28px 1px 28px;
+    color: #5931ea;
+    background: #ebf0f8;
+    margin-bottom: 20px;
+    display: -webkit-inline-box;
+    border-radius: 100px;
+    margin-top: 10px;
+  }
+  .itemrow {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eaedf380;
+    padding-bottom: 8px;
+  }
+  .item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .currency {
+      margin: 0;
+      font-size: 13px;
+      text-overflow: ellipsis;
+      width: 100px;
+      white-space: nowrap;
+      overflow: hidden;
+      font-weight: 500;
+      color: #010947;
+    }
+    .balance {
+      font-size: 12px;
+      color: #050505;
+      font-weight: 400;
+    }
+  }
+  .right {
+    .usd {
+      font-size: 12px;
+      color: #050505;
+      font-weight: 500;
+    }
+    .usd-balance {
+      font-size: 12px;
+    }
+  }
+}
+.quickBuy {
+  .itemrow {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    .col-md-5 {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .pair {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #010947;
+  }
+  .marketPrice {
+    font-size: 0.8rem;
+    color: #050505;
+  }
+}
+.myCwallet {
+  margin: 0 5px !important;
+  margin-bottom: 15px !important;
+  .widgetBody {
+    padding-top: 10px;
+    h4 {
+      padding-bottom: 5px;
+    }
+    .balance {
+      font-weight: 500;
+      font-size: 18px;
+      color: #050505;
+      padding-bottom: 8px;
+      padding-top: 10px;
+    }
+  }
+}
+.balancePoint_left {
+  padding-left: 14px;
+}
+.balancePoint_right {
+  padding-right: 10px;
+}

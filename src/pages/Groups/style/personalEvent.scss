@@ -1,0 +1,294 @@
+.createPersonalEventAreaWrapper {
+  .createEventArea label {
+    color: #010947;
+    font-family: ProximaNova-Regular;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .createEventArea {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+    border-radius: 6px;
+    .header {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #010947;
+      }
+    }
+    .hLine {
+      height: 1px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .eventForm {
+      .help-text {
+        color: #010947;
+      }
+      .location {
+        .form-check {
+          display: inline;
+          margin-right: 50px;
+        }
+      }
+      .input-group-text {
+        background-color: #e9ecfa;
+        color: #000;
+      }
+    }
+  }
+  .groupAreaWrapper {
+    background-color: #fff;
+    .group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 30px;
+      .file {
+        display: none;
+      }
+      .groupImg {
+        border-radius: 50%;
+        border: 5px solid #656565;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 150px;
+        width: 150px;
+
+        .changeImg {
+          position: absolute;
+          top: 70%;
+          height: 80px;
+          width: 160px;
+          padding: 10px;
+          background: rgba(38, 38, 38, 0.6);
+          text-align: center;
+          justify-content: center;
+          color: #fff;
+          font-family: ProximaNova-Regular;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 10px;
+          cursor: pointer;
+        }
+      }
+      .groupAccessType {
+        display: flex;
+        gap: 15px;
+        img {
+          object-fit: contain;
+        }
+        span {
+          font-family: ProximaNova-Regular;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 140.7%;
+          color: #42434b;
+        }
+      }
+      .groupDescription {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140.7%;
+        color: #656565;
+      }
+    }
+  }
+
+  .event {
+    border: 1px solid #eaedf3;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    .list-group-item {
+      border-top: none;
+      padding: 0;
+      background-color: inherit;
+      .red {
+        color: #f94162;
+      }
+    }
+    .image {
+      display: flex;
+      object-fit: cover;
+      flex-grow: 1;
+      position: relative;
+      img {
+        flex-basis: 250px;
+        flex-grow: 1;
+      }
+      .moreDetails {
+        position: absolute;
+        z-index: 2;
+        top: 5%;
+        right: 5%;
+        cursor: pointer;
+      }
+    }
+    .details {
+      display: flex;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding-left: 5px;
+      }
+      .eventName {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 15px;
+        color: #010947;
+        display: block;
+      }
+      .interested {
+        flex-grow: 1;
+        text-align: end;
+        margin-right: 10px;
+      }
+      .time,
+      .interested {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        color: #42434b;
+      }
+    }
+    .btn-Interested {
+      align-self: flex-end;
+      margin-right: 10px;
+      button {
+        background: #ececec;
+        border-radius: 25px;
+        color: #111111;
+        justify-self: flex-end;
+        border: none;
+      }
+    }
+    .btn-viewDetails {
+      align-self: flex-end;
+      margin-right: 10px;
+      button {
+        background: #fff;
+        border: 1px solid #5931ea;
+        box-sizing: border-box;
+        border-radius: 25px;
+        color: #5832e0;
+      }
+    }
+  }
+  .upcoming {
+    span {
+      font-family: ProximaNova-Regular;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      color: #010947;
+    }
+  }
+  .eventsOverallAreaWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+    border-radius: 6px;
+    .header {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      padding: 10px 10px 0px 10px;
+      div {
+        :nth-child(1) {
+          span {
+            font-family: ProximaNova-Regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            color: #010947;
+          }
+        }
+      }
+      .leftArea {
+        display: flex;
+        gap: 15px;
+        .tab {
+          cursor: pointer;
+          background: #ffffff;
+          border: 1px solid #e9e9e9;
+          box-sizing: border-box;
+          border-radius: 2px;
+          padding: 10px;
+          height: 26px;
+          display: flex;
+          align-items: center;
+          span {
+            font-family: ProximaNova-Regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            color: #a1a5c5;
+          }
+        }
+        .tab.selected {
+          background-color: #5832e0;
+          span {
+            color: #fff !important;
+          }
+        }
+      }
+      .rightArea {
+        margin-left: auto;
+      }
+    }
+    .hLine {
+      height: 1px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .eventsAreaWrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 0 15px 20px 15px;
+      gap: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .eventsAreaWrapper {
+    display: block !important;
+  }
+  .header {
+    display: block !important;
+    .rightArea {
+      margin-top: 10px;
+    }
+  }
+}

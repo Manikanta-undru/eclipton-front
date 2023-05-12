@@ -1,0 +1,53 @@
+.CreateNewPostArea {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.CreateNewPostArea textArea {
+  height: 77px;
+  padding: 7px;
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #acaebe;
+  border: none;
+  resize: none;
+}
+
+.CreateNewPostArea .toolsArea {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.CreateNewPostArea .toolsArea .left-section {
+  margin-left: 16px;
+}
+.CreateNewPostArea .toolsArea .left-section img {
+  margin-right: 10px;
+}
+.CreateNewPostArea .toolsArea .left-section .connection {
+  background: #ececec;
+  border-radius: 12px;
+  padding: 5px;
+  display: inline-block;
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #111111;
+}
+.CreateNewPostArea .toolsArea .right-section {
+  margin-left: auto;
+  margin-right: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.CreateNewPostArea .toolsArea .right-section img {
+  object-fit: contain;
+}

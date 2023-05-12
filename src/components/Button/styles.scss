@@ -1,0 +1,240 @@
+// New Button Style Start
+.primaryBtn {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+  min-width: 72px;
+  line-height: 14px;
+  height: 30px;
+  background: #5832e0;
+  border: 1px solid #5832e0;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  &:focus {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 500;
+    min-width: 72px;
+    line-height: 14px;
+    height: 30px;
+    background: #5832e0;
+    border: 1px solid #5832e0;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+  }
+  &:hover {
+    color: #fff;
+    background: darken(#5832e0, 20);
+    border: 1px solid #5832e0;
+    opacity: 0.9;
+  }
+}
+.secondaryBtn {
+  color: #5832e0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  min-width: 72px;
+  line-height: 14px;
+  height: 30px;
+  background: #e9e8fa;
+  border: 1px solid #e9e8fa;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  &:focus {
+    color: #5832e0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    min-width: 72px;
+    line-height: 14px;
+    height: 30px;
+    background: #e9e8fa;
+    border: 1px solid #e9e8fa;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+  }
+  &:hover {
+    color: #fff;
+    background: #5832e0;
+    border: 1px solid #5832e0;
+    opacity: 0.9;
+  }
+}
+.lightGreen_btn {
+  background: #ebf7e9;
+  border: 1px solid #ebf7e9;
+  color: #3dae23;
+  padding: 0 5px;
+  min-width: 72px;
+  height: 24px;
+  font-size: 0.7rem;
+  border-radius: 4px;
+  margin-right: 2px;
+  margin-top: 5px;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  &:focus {
+    background: #ebf7e9;
+    border: 1px solid #ebf7e9;
+    color: #3dae23;
+    padding: 4px 5px;
+    min-width: 72px;
+    height: 24px;
+    font-size: 11px;
+    border-radius: 4px;
+    margin-right: 2px;
+    margin-top: 5px;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+  }
+  &:hover {
+    background: #3dae23;
+    border: 1px solid #3dae23;
+    color: #fff;
+  }
+}
+.removeBtn_border {
+  background-color: transparent;
+  border-color: transparent;
+  color: #5832e0;
+  height: 30px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0 !important;
+  text-align: right;
+  margin-right: 6px;
+}
+.dropdownBtn {
+  position: relative;
+  background-color: #e7e2fb;
+  border: 1px solid #e7e2fb;
+  color: #5832e0;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 3px 20px 3px 10px !important;
+  height: 24px;
+  border-radius: 4px;
+  min-width: 72px;
+  margin-right: 6px;
+  z-index: 9;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  i {
+    position: absolute;
+    right: 7px;
+    font-size: 8px;
+    top: 50%;
+    margin-top: -4px;
+    width: 10px;
+  }
+  &:hover {
+    .dropdown-items {
+      display: block;
+    }
+  }
+  .dropdown-items {
+    position: absolute;
+    display: none;
+    background: transparent;
+    width: 100%;
+    left: -1px;
+    margin-top: 2px;
+    z-index: 9;
+    .item {
+      background-color: #e7e2fb;
+      border: 1px solid #e7e2fb;
+      color: #5832e0;
+      font-size: 0.7rem;
+      font-weight: 500;
+      border-radius: 4px;
+      min-width: 72px;
+      margin-right: 6px;
+      line-height: 2;
+      margin-top: 5px !important;
+      margin-bottom: 1px;
+      -webkit-transition: all 0.6s ease 0s;
+      transition: all 0.6s ease 0s;
+      &:hover {
+        background-color: #5832e0;
+        border: 1px solid #5832e0;
+        color: #fff;
+        opacity: 0.9;
+      }
+    }
+  }
+  &:focus {
+    background-color: #e7e2fb;
+    border: 1px solid #e7e2fb;
+    color: #5832e0;
+    font-size: 0.7rem;
+    padding: 3px 18px 3px 10px !important;
+    height: 24px;
+    border-radius: 4px;
+    min-width: 72px;
+    margin-right: 6px;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+  }
+  &:hover {
+    background-color: #5832e0;
+    border: 1px solid #5832e0;
+    color: #fff;
+    opacity: 0.9;
+  }
+}
+.fileButton {
+  input {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .form-control {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  button {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 400;
+    min-width: 72px;
+    line-height: 14px;
+    background: #5832e0;
+    border: 1px solid #5832e0;
+    border-radius: 0 4px 4px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    &:focus {
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 400;
+      min-width: 72px;
+      line-height: 14px;
+      background: #5832e0;
+      border: 1px solid #5832e0;
+      border-radius: 0 4px 4px 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      -webkit-transition: all 0.6s ease 0s;
+      transition: all 0.6s ease 0s;
+    }
+    &:hover {
+      background-color: #5832e0;
+      border: 1px solid #5832e0;
+      color: #fff;
+      opacity: 0.9;
+    }
+  }
+}
+// New Button Style End

@@ -1,0 +1,216 @@
+$darkBlue: #523ce1;
+.widget-1 {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.hovertext {
+  position: relative;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+p.tiny {
+  font-size: 12px;
+  line-height: 12px;
+  color: #a1a5c5;
+  margin-bottom: 7px;
+}
+p.big {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #42434b;
+  margin: 0;
+}
+
+.market-widget-1 {
+  .grid-2.btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+    > a {
+      height: 35px;
+      display: block;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 40px !important;
+    }
+  }
+
+  .product-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    color: #42434b;
+  }
+
+  .price-and-share {
+    display: grid;
+    grid-template-columns: auto 40px;
+    margin-bottom: 15px;
+
+    .price-box {
+      font-weight: bold;
+      color: $darkBlue;
+      font-size: 15px;
+
+      span.off {
+        background: rgba(0, 195, 90, 0.1);
+        border-radius: 8.5px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 120%;
+        text-align: center;
+        color: #00c35a;
+        padding: 2px 5px 1px;
+        position: relative;
+        top: -1px;
+        margin-left: 5px;
+      }
+
+      span.strike {
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        text-decoration: line-through !important;
+        color: #a1a5c5;
+      }
+    }
+
+    .share-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      .heartThis {
+        font-size: 20px;
+        color: #a7a1a1;
+        cursor: pointer;
+      }
+      .heartThis:hover,
+      .heartThis.active {
+        color: #5931ea;
+      }
+      a {
+        text-align: center;
+        color: $darkBlue;
+        display: block;
+      }
+    }
+  }
+}
+
+.market-widget-2 {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: auto 80px;
+    grid-gap: 25px;
+  }
+  .user-box {
+    background: #f4f5fc;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 40px auto;
+    margin-bottom: 15px;
+
+    h3 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 120%;
+      letter-spacing: 0.03em;
+      color: #42434b;
+      margin: 0 0 3px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 120%;
+      letter-spacing: 0.03em;
+      color: #a1a5c5;
+      margin: 0 0 3px;
+    }
+
+    .user-info {
+      position: relative;
+
+      > span {
+        position: absolute;
+        right: 5px;
+        top: 7px;
+      }
+    }
+  }
+  .chat {
+    margin: 15px 0 0;
+
+    a {
+      display: block;
+      text-align: center;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      color: #5832e0;
+    }
+  }
+
+  .return-box {
+    position: relative;
+    padding-left: 25px;
+    .text {
+      margin: 15px 0;
+    }
+    span.icon {
+      position: absolute;
+      left: 0;
+      top: 0px;
+    }
+    span.icon img {
+      width: 17px;
+    }
+    .lead {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      color: #42434b;
+      margin: 0 0 5px;
+    }
+  }
+}

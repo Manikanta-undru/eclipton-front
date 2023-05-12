@@ -1,0 +1,576 @@
+.registerUser .profileWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+  border-radius: 6px;
+  padding: 20px;
+}
+.registerUser .profileWrapper .profileSummary {
+  padding-left: 20px;
+}
+.registerUser .profileWrapper .profileSummary .heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #010947;
+}
+.registerUser .profileWrapper .profileSummary .summary {
+  display: flex;
+  gap: 20px;
+}
+.registerUser .profileWrapper .profileSummary .summary .sum {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.registerUser .header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+.registerUser .header div :nth-child(1) span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #010947;
+}
+.registerUser .header .leftArea {
+  display: flex;
+  gap: 15px;
+}
+.registerUser .header .leftArea .tab {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 10px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+}
+.registerUser .header .leftArea .tab span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #a1a5c5;
+}
+.registerUser .header .leftArea .tab.selected {
+  background-color: #5832e0;
+}
+.registerUser .header .leftArea .tab.selected span {
+  color: #fff !important;
+}
+.registerUser .header .rightArea {
+  margin-left: auto;
+}
+.registerUser .header .rightArea button:nth-child(1) {
+  margin-right: 10px;
+}
+.registerUser .header .rightArea button:nth-child(2) {
+  background: #ffffff;
+  border: 1px solid #5931ea;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: #5931ea;
+}
+
+.registerUser .hLine {
+  height: 1px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.registerUser .post {
+  background: #ffffff;
+  border: 1px solid #eaedf3;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+  border-radius: 6px;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 24px;
+}
+.registerUser .post .postContent.gallery4 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.registerUser .post .postContent.gallery4 figure {
+  margin-bottom: 0;
+}
+.registerUser .post .postContent.gallery4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.registerUser .post .postContent.gallery4 .galleryItem1 {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+.registerUser .post .postContent.gallery4 .galleryItem2 {
+  grid-area: 1 / 3 / span 2 / span 2;
+}
+.registerUser .post .postContent.gallery4 .galleryItem3 {
+  grid-area: 2 / 1 / span 3 / span 2;
+}
+.registerUser .post .postContent.gallery4 .galleryItem4 {
+  grid-area: 3 / 3 / span 2 / span 2;
+  position: relative;
+  cursor: pointer;
+}
+.registerUser .post .postContent.gallery4 .galleryItem4 p {
+  position: absolute;
+  color: #fff;
+  top: 45%;
+  left: 45%;
+  font-size: 50px;
+}
+.registerUser .post .header {
+  display: flex;
+}
+.registerUser .post .header .leftArea {
+  display: flex;
+  gap: 10px;
+}
+.registerUser .post .header .leftArea .profile-icon {
+  width: 54.22px;
+  height: 54.69px;
+  border-radius: 50%;
+}
+.registerUser .post .header .leftArea .profileDetails {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+.registerUser .post .header .leftArea .profileDetails .name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #42434b;
+}
+.registerUser .post .header .leftArea .profileDetails .position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 99.7%;
+  color: #656565;
+}
+.registerUser .post .header .leftArea .profileDetails .time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #42434b;
+}
+.registerUser .post .header .rightArea {
+  margin-left: auto;
+  cursor: pointer;
+}
+.registerUser .post .post-description {
+  margin-top: 10px;
+}
+.registerUser .post .post-description p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #42434b;
+  width: 60%;
+}
+.registerUser .post .shareDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.registerUser .post .shareDetails span {
+  font-family: ProximaNova-Medium;
+  font-size: 12px;
+  line-height: 25px;
+  color: #42434b;
+}
+.registerUser .post .line {
+  border-bottom: 1px solid #e5e5e5;
+}
+.registerUser .post .actionButtons {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.registerUser .post .actionButtons .action:nth-child(2) {
+  margin-left: 27px;
+}
+.registerUser .post .actionButtons .action {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.registerUser .post .replySection .comment {
+  grid-template-columns: 0.1fr 1fr;
+}
+.registerUser .post .replySection .reply {
+  grid-template-columns: 0.13fr 1fr;
+  margin-top: 5px;
+}
+.registerUser .post .replySection .reply .profile-img {
+  justify-self: flex-end;
+}
+.registerUser .post .replySection .reply .reply-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.registerUser .post .replySection .comment,
+.registerUser .post .replySection .reply {
+  display: grid;
+  gap: 10px;
+}
+.registerUser .post .replySection .comment .profile-img,
+.registerUser .post .replySection .reply .profile-img {
+  width: 36.78px;
+  height: 37.31px;
+  border-radius: 50%;
+}
+.registerUser .post .replySection .comment .comment-Text,
+.registerUser .post .replySection .reply .comment-Text {
+  display: flex;
+  background: #f4f5fc;
+  padding: 5px;
+}
+.registerUser .post .replySection .comment .comment-Text .leftArea,
+.registerUser .post .replySection .reply .comment-Text .leftArea {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.registerUser .post .replySection .comment .comment-Text .leftArea .name,
+.registerUser .post .replySection .reply .comment-Text .leftArea .name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #42434b;
+}
+.registerUser .post .replySection .comment .comment-Text .leftArea .position,
+.registerUser .post .replySection .reply .comment-Text .leftArea .position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #656565;
+}
+.registerUser .post .replySection .comment .comment-Text .leftArea .content,
+.registerUser .post .replySection .reply .comment-Text .leftArea .content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #42434b;
+}
+.registerUser .post .replySection .comment .comment-Text .rightArea,
+.registerUser .post .replySection .reply .comment-Text .rightArea {
+  margin-left: auto;
+}
+.registerUser .post .replySection .writeAComment {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+}
+.registerUser .post .replySection .writeAComment img {
+  width: 36.78px;
+  height: 37.31px;
+  border-radius: 50%;
+}
+.registerUser .post .replySection .writeAComment input {
+  border: none;
+}
+.registerUser .post .replySection .writeAComment input :focus {
+  outline: none;
+}
+.registerUser .post .replySection .moreComments {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #42434b;
+}
+.registerUser .post .replySection .actionIcons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.registerUser .post .replySection .actionIcons img {
+  margin-right: 10px;
+}
+.registerUser .post .replySection .actionIcons img,
+.registerUser .post .replySection .actionIcons span {
+  cursor: pointer;
+}
+
+.registerUser .banner-img {
+  flex-shrink: 0;
+  width: 65px;
+  box-shadow: 0 3px 5px #0000003b;
+  height: 65px;
+  border-radius: 50%;
+  background-size: 34%;
+  margin-right: 20px;
+}
+
+.registerUser .gtitle {
+  color: #010947 !important;
+  font-size: 1rem;
+  margin-bottom: 5px !important;
+}
+
+.registerUser .gsubtitle {
+  color: #8d8d8d;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.registerUser .groupsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+}
+.registerUser .groupsContainer .heading {
+  display: flex;
+  align-items: center;
+}
+.registerUser .groupsContainer .heading p {
+  margin-bottom: 0;
+}
+.registerUser .groupsContainer .heading span {
+  color: #9fa4aa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+}
+.registerUser .groupsContainer .heading a {
+  margin-left: auto;
+}
+.registerUser .groupsContainer .pos-rel {
+  position: relative;
+}
+.registerUser .groupsContainer .PagesBlogsArea {
+  display: grid;
+  gap: 40px 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 10px;
+}
+.registerUser .groupsContainer .PagesBlogsArea .line {
+  grid-area: span 1 / span 4;
+  height: 2px;
+  border: 1px solid #e6e6e6;
+  width: 50%;
+  justify-self: center;
+}
+.registerUser .groupsContainer .PagesBlogsArea .pagesBlog {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.registerUser .groupsContainer .PagesBlogsArea .pagesBlog .blogDetails {
+  display: flex;
+  align-items: center;
+  line-height: 13px;
+  gap: 5px;
+}
+.registerUser .groupsContainer .PagesBlogsArea .pagesBlog .blogDetails img {
+  margin-right: 5px;
+  width: 53.8px;
+  height: 26.11px;
+}
+.registerUser .groupsContainer .PagesBlogsArea .pagesBlog .blogDetails p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #42434b;
+  margin-bottom: 0;
+}
+.registerUser .groupsContainer .PagesBlogsArea .pagesBlog .blogDetails span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #8f8f8f;
+}
+.registerUser .groupsContainer .categoriesBlogArea {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  gap: 16px;
+  margin-top: 25px;
+}
+.registerUser .groupsContainer .categoriesBlogArea .leftArrow {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: -5%;
+  cursor: pointer;
+}
+.registerUser .groupsContainer .categoriesBlogArea .rightArrow {
+  z-index: 2;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: -5%;
+}
+.registerUser .groupsContainer .categoriesBlogArea .categoryBlog {
+  position: relative;
+}
+.registerUser .groupsContainer .categoriesBlogArea .categoryBlog span {
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+.registerUser .groupsContainer .groupBlogArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 20px;
+}
+.registerUser .groupsContainer .groupBlogArea .leftArrow {
+  position: absolute;
+  cursor: pointer;
+  top: 36%;
+  left: -5%;
+  z-index: 100;
+}
+.registerUser .groupsContainer .groupBlogArea .rightArrow {
+  position: absolute;
+  cursor: pointer;
+  top: 36%;
+  right: -5%;
+  z-index: 100;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 16px;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea p {
+  margin-bottom: 0;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea .freeText {
+  color: #00c35a;
+  margin-right: 20px;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea .btcText {
+  color: #42434b;
+  font-weight: 600;
+  font-size: 10px;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea .shareText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea button {
+  background-color: #fff;
+  color: #5931ea;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea .dp-flex {
+  display: flex;
+  align-content: center;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea .al-r {
+  align-self: flex-end;
+  margin-left: auto;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea ul {
+  padding: 0;
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+.registerUser .groupsContainer .groupBlogArea .groupBlog .rightArea li {
+  margin-right: 10px;
+  list-style-type: disc;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 110%;
+  color: #8f8f8f;
+}
+.suggest {
+  position: relative;
+  right: 50%;
+  bottom: 140%;
+}
+@media screen and (max-width: 760px) {
+  .registerUser .groupsContainer .groupBlogArea {
+    display: block;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea {
+    display: block;
+    align-self: center;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea .line {
+    display: none;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea .pagesBlog {
+    margin-bottom: 10px;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea .blogDetails {
+    display: block !important;
+  }
+  .registerUser .groupsContainer .leftArrow,
+  .registerUser .groupsContainer .rightArrow {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .registerUser .groupsContainer .groupBlogArea {
+    display: block;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea {
+    display: block;
+    align-self: center;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea .line {
+    display: none;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea .pagesBlog {
+    margin-bottom: 10px;
+  }
+  .registerUser .groupsContainer .PagesBlogsArea .blogDetails {
+    display: block !important;
+  }
+  .registerUser .groupsContainer .leftArrow,
+  .registerUser .groupsContainer .rightArrow {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .registerUser .banner-body {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

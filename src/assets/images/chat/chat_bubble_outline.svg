@@ -1,0 +1,15 @@
+<svg id="chat_bubble_outline-24px" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #d7d7d9;
+      }
+    </style>
+  </defs>
+  <path id="Path_5" data-name="Path 5" class="cls-1" d="M30,0H0V30H30Z"/>
+  <path id="Path_6" data-name="Path 6" class="cls-2" d="M4.6,2H25.4A2.608,2.608,0,0,1,28,4.6V28l-5.2-5.2H4.6A2.608,2.608,0,0,1,2,20.2V4.6A2.608,2.608,0,0,1,4.6,2Zm0,18.2H22.8l2.6,2.6V4.6H4.6Z" transform="translate(0 0)"/>
+</svg>

@@ -1,0 +1,49 @@
+$blue: var(--color-1);
+
+.title-and-filter {
+  display: grid;
+  grid-template-columns: auto 170px;
+  grid-gap: 15px;
+  margin-bottom: 15px;
+
+  .filter {
+    text-align: right;
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-gap: 15px;
+
+    > span {
+      position: relative;
+      top: 6px;
+      font-style: normal;
+      font-size: 13px;
+      color: #a1a5c5;
+    }
+
+    .filter-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border: 2px solid var(--color-1);
+      border-radius: 60px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: none;
+      padding: 1px 1px 0.5px;
+    }
+    .filter-box button {
+      position: relative;
+      background: #fff;
+      color: #666;
+      border: none;
+      min-width: 35px;
+      padding: 0;
+      border-radius: 35px;
+      line-height: 32px;
+      height: 30px;
+    }
+    .filter-box button.active {
+      background: $blue;
+      color: #fff;
+    }
+  }
+}

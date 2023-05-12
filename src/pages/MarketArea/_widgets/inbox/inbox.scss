@@ -1,0 +1,109 @@
+.inbox-wrapper {
+  display: block;
+  border-right: 1px solid #e9ecfa;
+  height: auto;
+  max-height: 400px;
+  overflow: auto;
+  background: #fff;
+  margin-bottom: 15px;
+
+  .head {
+    background: #444;
+    padding: 10px 15px;
+
+    h3 {
+      margin: 0;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+  }
+
+  .body {
+    .inbox {
+      display: grid;
+      grid-template-columns: 45px auto;
+      padding: 15px 15px 0;
+      cursor: pointer;
+      &.active {
+        background: #f4f5fc;
+
+        .content {
+          border-bottom: none;
+        }
+      }
+
+      h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.03em;
+        color: #42434b;
+        margin-bottom: 5px;
+      }
+
+      p,
+      span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        letter-spacing: 0.03em;
+        color: #7b80ae;
+        margin-bottom: 0;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .content {
+        position: relative;
+        padding-right: 50px;
+        border-bottom: 2px solid #eeecfc;
+        padding-bottom: 15px;
+
+        span.date {
+          position: absolute;
+          right: 10px;
+          top: 5px;
+        }
+        span.dot {
+          position: absolute;
+          right: 10px;
+          bottom: 15px;
+          color: #222;
+        }
+      }
+    }
+  }
+
+  .foot {
+    text-align: center;
+    padding: 12px 12px 15px;
+
+    a {
+      color: var(--color-1);
+    }
+  }
+}
+
+.avatar {
+  position: relative;
+  --value: 35px;
+  width: var(--value);
+  height: var(--value);
+  border-radius: var(--value);
+
+  .thumb {
+    position: absolute;
+    right: -2.5px;
+    top: 16px;
+    --value: 16px;
+    width: var(--value);
+    height: var(--value);
+    border-radius: var(--value);
+  }
+}

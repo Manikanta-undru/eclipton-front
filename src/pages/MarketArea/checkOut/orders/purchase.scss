@@ -1,0 +1,11 @@
+.purchase_table {
+  counter-reset: rowNumber;
+}
+.purchase_table tr {
+  counter-increment: rowNumber;
+}
+.purchase_table tr td:first-child::before {
+  content: counter(rowNumber);
+  min-width: 1em;
+  margin-right: 0.5em;
+}

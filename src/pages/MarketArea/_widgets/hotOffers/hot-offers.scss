@@ -1,0 +1,23 @@
+.offer-box {
+  margin-bottom: 10px;
+  img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+    img {
+      margin-bottom: 0;
+    }
+  }
+}
+.load-more {
+  text-align: center;
+  padding-top: 7px;
+
+  a {
+    font-weight: 600;
+    padding: 10px 20px !important;
+    border-radius: 40px !important;
+  }
+}

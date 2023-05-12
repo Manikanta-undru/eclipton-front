@@ -1,0 +1,24 @@
+# Ignore build files
+build/*
+dist/*
+
+# Ignore coverage files
+coverage/*
+
+# Ignore node_modules
+node_modules/*
+
+# Ignore public files
+public/*
+
+# Ignore package-lock.json and yarn.lock
+package-lock.json
+yarn.lock
+
+# Ignore editor files
+.vscode/*
+.idea/*
+
+# Ignore specific files
+README.md
+LICENSE

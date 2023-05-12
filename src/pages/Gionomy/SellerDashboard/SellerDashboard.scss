@@ -1,0 +1,151 @@
+.buyer-request {
+  padding: 24px 16px 16px 16px;
+  display: flex;
+  position: relative;
+  .st1 {
+    color: rgb(194, 126, 0);
+  }
+  .st2 {
+    color: blue;
+  }
+  .st3 {
+    color: green;
+  }
+  .st-1 {
+    color: red;
+  }
+  .seller-panel {
+    width: 200px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    .seller-title {
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+      .MuiSvgIcon-root {
+        padding-right: 8px;
+      }
+    }
+    .seller-details {
+      padding: 8px;
+    }
+
+    .seller-image {
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 75px;
+      height: 75px;
+    }
+    .seller-desc {
+      line-height: 16px;
+      padding-top: 10px;
+      font-size: 13px;
+    }
+  }
+  .buyer-panel {
+    width: calc(100% - 200px);
+    float: left;
+    padding-left: 16px;
+    .buyer-list {
+      width: 350px;
+      float: left;
+      .selected-item {
+        background-color: #f8f8f8;
+      }
+      .search-buyer input {
+        padding: 0;
+      }
+      .search-buyer .MuiIconButton-root {
+        padding-top: 0;
+        border-radius: 0;
+        padding-bottom: 0;
+      }
+      .search-buyer .MuiPaper-rounded {
+        border-radius: 0;
+        width: 100%;
+      }
+      > .MuiPaper-root {
+        padding: 8px;
+        margin-top: 4px;
+        display: flex;
+      }
+      .buyer-image {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        float: left;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        img {
+          max-height: 100%;
+          width: 100%;
+        }
+      }
+      .buyer-details {
+        width: calc(100% - 40px);
+        float: left;
+        padding-left: 8px;
+        font-size: 14px;
+      }
+      .buyer-name {
+        font-weight: bold;
+        font-size: 12px;
+      }
+      .buyer-assignment {
+        font-size: 12px;
+        float: left;
+        .MuiSvgIcon-root {
+          font-size: 0.8rem;
+          fill: #5931ea;
+        }
+        > span {
+          padding-left: 4px;
+          opacity: 0.5;
+        }
+      }
+    }
+    .seller-chat-panel {
+      width: calc(100% - 350px);
+      float: left;
+    }
+  }
+  .time-left {
+    position: absolute;
+    right: 35px;
+    top: 0px;
+    font-size: 12px;
+  }
+}
+.font-bold {
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  .buyer-request {
+    display: block;
+    .seller-panel {
+      float: none;
+      width: 100%;
+      clear: both;
+      margin-bottom: 10px;
+    }
+    .buyer-panel {
+      padding-left: 0;
+      float: none;
+      width: 100%;
+      clear: both;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .buyer-request {
+    .buyer-panel .buyer-list,
+    .buyer-panel .seller-chat-panel {
+      float: none;
+      width: 100%;
+      clear: both;
+      margin-bottom: 10px;
+    }
+  }
+}

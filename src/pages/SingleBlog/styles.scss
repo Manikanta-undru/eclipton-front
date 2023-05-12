@@ -1,0 +1,150 @@
+.blogSearchPage .blogSearch {
+  width: 100%;
+}
+.blogSearchPage .blogSearch input {
+  box-shadow: 0 4px 5px #ddd !important;
+  border-radius: 6px !important;
+}
+.blogSearchPage .blogSearch input:focus {
+  outline: 0;
+  border: 1px solid #ddd;
+  background: transparent;
+}
+.blogSearchPage .blogSearch .input-group-append {
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  height: 39px;
+}
+.blogSearchPage .blogSearch .input-group-append button {
+  background: transparent;
+  color: #999 !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.singleBlogPage .blog-cover {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.singleBlogPage .blog-cover .go-back {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 12px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.singleBlogPage .blog-cover .tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleBlogPage .blog-cover .tags .tag {
+  background: #2257b9;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 5px;
+  min-width: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.singleBlogPage .blog-content .time {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.singleBlogPage .blog-content h1 {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.singleBlogPage .blog-content .blog-actions {
+  color: #5931ea;
+}
+.singleBlogPage .blog-content .blog-actions span {
+  font-size: 18px;
+  padding: 2px;
+}
+
+.singleBlogPage .blog-content .blog-text {
+  margin-top: 20px;
+}
+
+.singleBlogPage .comment-form input {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.singleBlogPage .comment-form button {
+  margin: 0;
+  margin-top: -4px;
+  margin-right: -6px;
+  height: 38px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 0;
+}
+
+.singleBlogPage .card-thumb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.singleBlogPage .paymentDiv {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.addBlogPage h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.addBlogPage .form-control {
+  color: #888;
+}
+
+.addBlogPage .DraftEditor-root,
+.addBlogPage .DraftEditor-container {
+  min-height: 200px;
+  border: 1px solid #ddd;
+}
+
+.addBlogPage .public-DraftStyleDefault-block {
+  margin: 0 5px;
+}
+
+.addBlogPage .uploadedImage {
+  width: 100px;
+  position: relative;
+  padding: 5px;
+}
+.addBlogPage .uploadedImage .remove {
+  z-index: 2;
+  color: #fff;
+  background: #111;
+  position: absolute;
+  padding: 3px 4px;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 9px;
+  font-size: 10px;
+}
+
+.addBlogPage .react-tags__search-input {
+  width: 100% !important;
+}

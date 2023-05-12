@@ -1,0 +1,50 @@
+.savedGroups {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid #e6e6e6;
+  li.list-group-item {
+    font-size: 12px;
+
+    .fa-caret-down {
+      margin-left: 5px;
+    }
+  }
+  .group-header {
+    background: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .group-footer {
+    a {
+      color: #3c49f1;
+      float: right;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+  }
+  .hline {
+    border-bottom: 1px solid #e9ecfa;
+  }
+  .group-body {
+    background: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .group-box {
+      display: grid;
+      margin-top: 10px;
+      .group-text {
+        span:first-child {
+          font-weight: 600;
+        }
+        span {
+          display: block;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

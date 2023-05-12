@@ -1,0 +1,45 @@
+export const ADMIN = 'admin';
+export const image = [
+  '.png',
+  '.jpg',
+  '.jpeg',
+  '.gif',
+  '.PNG',
+  '.JPG',
+  '.JPEG',
+  '.GIF',
+];
+export const video = [
+  '.3g2',
+  '.3gp',
+  '.3gpp',
+  '.asf',
+  '.avi ',
+  '.dat',
+  '.divx',
+  '.dv',
+  '.f4v',
+  '.flv',
+  '.m2ts',
+  '.m4v',
+  '.mkv',
+  '.mod',
+  '.mov',
+  '.mp4',
+  '.mpe',
+  '.mpeg ',
+  '.mpeg4',
+  '.mpg',
+  '.mts',
+  '.nsv',
+  '.ogm',
+  '.ogv ',
+  '.qt',
+  '.tod',
+  '.ts',
+  '.vob',
+  '.wmv',
+];
+export const file = ['.pdf', '.docx', '.doc', '.xls', '.xlsx'];
+export const audio = ['.mp3'];
+export const TITLE_REGEX = /^[a-zA-Z0-9-_.,&()/:;\s]+$/;

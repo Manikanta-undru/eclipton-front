@@ -1,0 +1,15 @@
+{
+    "clientId": "5tng7ia6g2emg4v5frs8n79c05",
+    "userPoolUri": "eclipton-stg.auth.us-west-2.amazoncognito.com",
+    "userPool": "us-west-2_6jEEschXO",
+    "region": "us-west-2",
+    "callbackUri": "http://localhost:3000/login/",
+    "signoutUri": "http://localhost:3000/login/",
+    "responseType":"token",
+    "tokenScopes": [
+        "openid",
+        "email",
+        "profile"
+       
+    ]
+}

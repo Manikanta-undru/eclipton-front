@@ -1,0 +1,207 @@
+.editGroupAdminActivity {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+  @media (max-width: 480px) {
+    display: block;
+  }
+  .personaliseAreaWrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color: #fff;
+    padding: 15px;
+
+    @media (max-width: 480px) {
+      display: block;
+    }
+
+    .top {
+      img {
+        width: 100%;
+      }
+    }
+
+    .actionArea {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 0 20px;
+      .rightArea {
+        margin-left: auto;
+        display: flex;
+        gap: 10px;
+      }
+      span {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        color: #42434b;
+      }
+    }
+    .centerArea {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-content: center;
+      background: url('../../../assets/images/together.png') no-repeat;
+      background-position: bottom;
+      padding: 100px;
+      .heading {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #42434b;
+      }
+      .instruction {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #42434b;
+      }
+      .buttonArea {
+        display: flex;
+        gap: 10px;
+        input[type='file'] {
+          display: none;
+        }
+        .uploadLabel {
+          border-radius: 50px;
+          background-color: #5931ea;
+          padding: 8px 22px;
+          color: #fff;
+          font-size: 0.8rem;
+          min-width: 72px;
+          border: 1px solid #5931ea;
+          line-height: 13px;
+          font-family: 'ProximaNova-Bold';
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .group-header {
+    font-size: 18px;
+    font-family: ProximaNova-Regular;
+    color: #010947;
+    font-weight: 600;
+  }
+  .choose {
+    .btn {
+      background: transparent;
+      color: #42434b;
+      font-size: 14px;
+      border: 1px solid #e5e5e5 !important;
+      text-align: left;
+      height: 50px;
+      border-radius: 0;
+    }
+  }
+  button.no-fill {
+    background-color: transparent !important;
+    color: #5832e0;
+    border-color: #5832e0;
+  }
+
+  .dropdown {
+    .btn {
+      background: transparent;
+      color: #42434b;
+      font-size: 14px;
+      border: 1px solid #e5e5e5 !important;
+      text-align: left;
+      height: 40px;
+
+      .inline-block {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+  .dropdown-menu {
+    a.dropdown-item {
+      .inline-block {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        color: #42434b;
+        line-height: 20px;
+      }
+    }
+  }
+  .MuiInput-formControl button {
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 8px 5px;
+    color: #000;
+    font-size: 0.8rem;
+    min-width: 42px;
+    border: 1px solid transparent;
+    line-height: 13px;
+    font-family: 'ProximaNova-Bold';
+  }
+  .ques-box {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    padding: 10px;
+    span {
+      color: #42434b;
+    }
+    a {
+      color: #5832e0;
+    }
+  }
+  .groupSettings {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #e6e6e6;
+    label {
+      color: #010947;
+      font-family: ProximaNova-Regular;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    @media (max-width: 480px) {
+      display: block;
+    }
+  }
+  .group-header {
+    background: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .group-body {
+    background: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hline {
+    border-bottom: 1px solid #e9ecfa;
+  }
+  .accordian-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .more {
+      background-color: transparent;
+      color: #5832e0;
+    }
+  }
+  .accordian-notes {
+    line-height: 20px;
+  }
+}

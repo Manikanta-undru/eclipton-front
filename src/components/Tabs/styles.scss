@@ -1,0 +1,120 @@
+.tabs {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+  .tabBar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-left: 2px !important;
+    &.auto {
+      justify-content: flex-start;
+      .tabBarItem {
+        // width: auto !important;
+        // margin:0 10px;
+        width: 100%;
+        margin: 0;
+        &:hover {
+          background: #5931ea !important;
+          color: #fff !important;
+        }
+      }
+    }
+    .tabBarItem {
+      // border-bottom: 2px solid transparent;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: #010947 !important;
+      background: #ebf0f8 !important;
+      border-radius: 4px;
+      margin-right: 4px !important;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      transition: all 0.3s ease;
+
+      &.active {
+        // border-bottom: 2px solid #8362fb;
+        // color: #000;
+        // transition: all 0.3s ease;
+        border: 0;
+        /* border-bottom: 2px solid #8362fb; */
+        color: #fff !important;
+        transition: all 0.3s ease;
+        background: #5931ea !important;
+        border-radius: 4px;
+        background: linear-gradient(0deg, #000421, #010947);
+      }
+    }
+  }
+  .tabPanel {
+    // border: 1px solid #dedede;
+    border-top: none;
+
+    .tabPanelItem {
+      width: 100%;
+      display: none;
+      padding: 10px;
+      box-sizing: border-box;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .tabBar {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .tabs {
+    .tabBar.auto {
+      .tabBarItem {
+        margin: 2px 0;
+      }
+    }
+  }
+  .iborder {
+    margin: 10px 0;
+  }
+  .create-post {
+    margin-bottom: 0px !important;
+  }
+  .profilePage {
+    .profile-pic {
+      object-fit: cover;
+      object-position: center;
+      background-position: center !important;
+      background-size: cover !important;
+    }
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 620px) {
+  .iborder {
+    margin: 10px 0;
+  }
+  .create-post {
+    margin-bottom: 10px;
+  }
+  .profilePage {
+    .profile-pic {
+      object-fit: cover;
+      object-position: center;
+      background-position: center !important;
+      background-size: cover !important;
+    }
+  }
+}
+.profilePage {
+  .tabs {
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+  }
+}

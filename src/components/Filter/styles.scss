@@ -1,0 +1,22 @@
+.filterWidget {
+  .starRating {
+    .fa {
+      color: orange;
+      cursor: pointer;
+    }
+  }
+}
+
+.widgetTitle {
+  label {
+    font-size: 0.8rem;
+  }
+}
+
+.button.dropdown {
+  .dropdown-items {
+    .item {
+      margin-top: 5px !important;
+    }
+  }
+}

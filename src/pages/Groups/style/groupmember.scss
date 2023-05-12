@@ -1,0 +1,393 @@
+.viewMembersTotalWrapper .groupAreaWrapper {
+  background-color: #fff;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .file {
+  display: none;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .groupImg {
+  border-radius: 50%;
+  border: 5px solid #656565;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .groupImg .changeImg {
+  position: absolute;
+  top: 70%;
+  height: 80px;
+  width: 160px;
+  padding: 10px;
+  background: rgba(38, 38, 38, 0.6);
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .groupName {
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #42434b;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .groupAccessType {
+  display: flex;
+  gap: 15px;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .groupAccessType img {
+  object-fit: contain;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .groupAccessType span {
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140.7%;
+  color: #42434b;
+}
+.viewMembersTotalWrapper .groupAreaWrapper .group .groupDescription {
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.7%;
+  color: #656565;
+}
+
+.viewMembersTotalWrapper .membersOverallAreaWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+  border-radius: 6px;
+}
+.viewMembersTotalWrapper .membersOverallAreaWrapper .header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .header
+  div
+  :nth-child(1)
+  span {
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #010947;
+}
+.viewMembersTotalWrapper .membersOverallAreaWrapper .header .leftArea {
+  display: flex;
+  gap: 15px;
+}
+.viewMembersTotalWrapper .membersOverallAreaWrapper .header .leftArea .tab {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 10px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .header
+  .leftArea
+  .tab
+  span {
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #a1a5c5;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .header
+  .leftArea
+  .tab.selected {
+  background-color: #5832e0;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .header
+  .leftArea
+  .tab.selected
+  span {
+  color: #fff !important;
+}
+.viewMembersTotalWrapper .membersOverallAreaWrapper .header .rightArea {
+  margin-left: auto;
+}
+.viewMembersTotalWrapper .membersOverallAreaWrapper .hLine {
+  height: 1px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.viewMembersTotalWrapper .membersOverallAreaWrapper .membersAreaWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .left {
+  display: flex;
+  gap: 40px;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .left
+  .members {
+  display: flex;
+  align-items: center;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .left
+  .members
+  img {
+  height: 41.83px;
+  width: 41.83px;
+  border-radius: 50%;
+  margin-right: -20px;
+  border: 2px solid #fff;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .left
+  .count
+  span {
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 117.7%;
+  color: #42434b;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .right {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  width: 85%;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .right
+  img {
+  object-fit: none;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .right
+  input {
+  border: none;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .topArea
+  .right
+  input
+  :focus {
+  outline: none;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard {
+  border: 1px solid #eaedf3;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.1fr;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard
+  .profileImg
+  img {
+  width: 74px;
+  height: 73px;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard
+  .Details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-self: center;
+  justify-self: flex-start;
+  font-family: ProximaNova-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard
+  .Details
+  .name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #010947;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard
+  .Details
+  .position {
+  color: #42434b;
+  width: 25ch;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard
+  .Details
+  .role {
+  color: #5931ea;
+  background: rgba(89, 49, 234, 0.06);
+  border-radius: 2px;
+  width: fit-content;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard
+  .Details
+  .status {
+  color: #f94162;
+  background: rgba(89, 49, 234, 0.06);
+  border-radius: 2px;
+  width: fit-content;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .membersCard
+  .action
+  .red
+  span {
+  color: #f94162 !important;
+}
+.viewMembersTotalWrapper
+  .membersOverallAreaWrapper
+  .membersAreaWrapper
+  .bottomArea
+  .SeeMore {
+  justify-self: center;
+  grid-area: span 1 / span 2;
+}
+
+@media screen and (max-width: 760px) {
+  .viewMembersTotalWrapper .banner-body {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .viewMembersTotalWrapper .contentsArea {
+    display: block !important;
+    margin-bottom: 10px;
+  }
+  .viewMembersTotalWrapper .topArea {
+    display: block !important;
+  }
+  .viewMembersTotalWrapper .topArea .right {
+    margin-top: 10px;
+  }
+  .viewMembersTotalWrapper .bottomArea {
+    display: block !important;
+  }
+  .viewMembersTotalWrapper .membersCard {
+    margin-bottom: 10px;
+  }
+  .viewMembersTotalWrapper .SeeMore {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .viewMembersTotalWrapper .contentsArea {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .viewMembersTotalWrapper .topArea {
+    display: block !important;
+  }
+  .viewMembersTotalWrapper .topArea .right {
+    margin-top: 10px;
+  }
+  .viewMembersTotalWrapper .bottomArea {
+    display: block !important;
+  }
+}

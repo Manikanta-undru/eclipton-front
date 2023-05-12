@@ -1,0 +1,179 @@
+.viewMediaTotalWrapper {
+  .groupAreaWrapper {
+    background-color: #fff;
+    .group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 30px;
+      .file {
+        display: none;
+      }
+      .groupImg {
+        border-radius: 50%;
+        border: 5px solid #656565;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 150px;
+        width: 150px;
+
+        .changeImg {
+          position: absolute;
+          top: 70%;
+          height: 80px;
+          width: 160px;
+          padding: 10px;
+          background: rgba(38, 38, 38, 0.6);
+          text-align: center;
+          justify-content: center;
+          color: #fff;
+          font-family: ProximaNova-Regular;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 10px;
+          cursor: pointer;
+        }
+      }
+      .groupName {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 25px;
+        color: #42434b;
+      }
+      .groupAccessType {
+        display: flex;
+        gap: 15px;
+        img {
+          object-fit: contain;
+        }
+        span {
+          font-family: ProximaNova-Regular;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 140.7%;
+          color: #42434b;
+        }
+      }
+      .groupDescription {
+        font-family: ProximaNova-Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140.7%;
+        color: #656565;
+      }
+    }
+  }
+  .eventsOverallAreaWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+    border-radius: 6px;
+    .header {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      padding: 10px 10px 0px 10px;
+      div {
+        :nth-child(1) {
+          span {
+            font-family: ProximaNova-Regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            color: #010947;
+          }
+        }
+      }
+      .leftArea {
+        display: flex;
+        gap: 15px;
+        .tab {
+          cursor: pointer;
+          background: #ffffff;
+          border: 1px solid #e9e9e9;
+          box-sizing: border-box;
+          border-radius: 2px;
+          padding: 10px;
+          height: 26px;
+          display: flex;
+          align-items: center;
+          span {
+            font-family: ProximaNova-Regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            color: #a1a5c5;
+          }
+        }
+        .tab.selected {
+          background-color: #5832e0;
+          span {
+            color: #fff !important;
+          }
+        }
+      }
+      .rightArea {
+        margin-left: auto;
+        button:nth-child(1) {
+          margin-right: 10px;
+        }
+        button:nth-child(2) {
+          background: #ffffff;
+          border: 1px solid #5931ea;
+          box-sizing: border-box;
+          border-radius: 25px;
+          color: #5931ea;
+        }
+      }
+    }
+    .hLine {
+      height: 1px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .mediaAreaWrapper {
+      padding: 20px;
+    }
+  }
+  @media screen and (max-width: 760px) {
+    .banner-body {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .contentsArea {
+      display: block !important;
+      margin-bottom: 10px;
+    }
+    .header {
+      display: block !important;
+    }
+    .rightArea {
+      margin-top: 10px;
+    }
+  }
+  //ipad pro
+  @media screen and (min-width: 1024px) and (max-width: 1100px) {
+    .contentsArea {
+      grid-template-columns: 1fr 1fr !important;
+    }
+    .header {
+      display: block !important;
+    }
+    .rightArea {
+      margin-top: 10px;
+    }
+  }
+}

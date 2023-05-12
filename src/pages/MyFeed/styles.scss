@@ -1,0 +1,43 @@
+.feedPage {
+  .feedFilters {
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #fff;
+    border: 0;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    .subtitle {
+      margin: 0;
+      margin-right: 20px;
+      width: 100px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      overflow-x: auto;
+      margin: 0 10px;
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      width: 100%;
+    }
+  }
+  .highlights {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .feedPage {
+    .feedFilters {
+      flex-direction: column;
+    }
+    .subtitle {
+      align-self: flex-start;
+    }
+  }
+}

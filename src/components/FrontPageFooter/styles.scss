@@ -1,0 +1,41 @@
+.frontFooter {
+  // box-shadow: 0 0 10px #bbb;
+  padding: 30px;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  a {
+    color: #050505;
+    font-weight: 500;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    flex-wrap: wrap;
+    p {
+      color: #050505;
+      margin: 0;
+      font-weight: 500;
+    }
+    .foot-menu {
+      span {
+        margin: 0 15px;
+        color: #050505;
+        font-weight: 500;
+      }
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .container {
+      text-align: center;
+      overflow-y: none;
+      justify-content: center !important;
+    }
+    .foot-menu {
+      justify-content: center !important;
+    }
+  }
+}

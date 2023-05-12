@@ -1,0 +1,124 @@
+.wrapper-slider-1 {
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 100%;
+}
+.image-gallery-thumbnails {
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+}
+.image-gallery-thumbnail,
+.image-gallery-thumbnail:hover,
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+  border: none;
+}
+.image-gallery-thumbnail-image {
+  opacity: 0.4;
+  border-radius: 4px;
+}
+.image-gallery-thumbnail.active .image-gallery-thumbnail-image,
+.image-gallery-thumbnail:focus .image-gallery-thumbnail-image {
+  opacity: 1;
+}
+.image-gallery-thumbnail + .image-gallery-thumbnail {
+  padding: 5px;
+}
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+  padding: 0 10px;
+}
+
+.markCarousel .carousel {
+  width: 100%;
+}
+
+.markCarousel .carousel-item img {
+  height: 400px;
+  background-size: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.markCarousel .visually-hidden {
+  display: none !important;
+}
+.captionBox {
+  text-align: left;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.markCarousel .carousel-caption {
+  bottom: 0;
+}
+.captionBox h1 {
+  font-weight: 600;
+  color: black;
+  font-size: 36px;
+}
+.captionBox p {
+  //color: #f6f6f6;
+  color: black;
+}
+.captionBtn,
+.captionBtn:focus {
+  border-radius: 50px;
+  background-color: #5931ea;
+  color: #fff;
+  font-size: 0.8rem;
+  min-width: 72px;
+  border: 1px solid #5931ea;
+  line-height: 13px;
+  padding: 10px 25px;
+  margin: 0 5px;
+}
+.captionBtn:hover {
+  background-color: #5931ea;
+  color: #fff;
+  border: 1px solid #5931ea;
+  opacity: 0.9;
+}
+.captionBtn_box {
+  display: inline;
+}
+.captionBtn:first-child {
+  margin-left: 0;
+}
+.markCarousel .carousel-indicators {
+  bottom: 10%;
+}
+.markCarousel .carousel-indicators button {
+  margin: 2px;
+}
+
+.carouselFade .carousel-item {
+  opacity: 0;
+  transition-duration: 0.6s;
+  // height: 400px !important;
+  transition-property: opacity;
+}
+
+.carouselFade .carousel-item.active,
+.carouselFade .carousel-item-next.carousel-item-left,
+.carouselFade .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carouselFade .active.carousel-item-left,
+.carouselFade .active.carousel-item-right {
+  opacity: 0;
+}
+
+.carouselFade .carousel-item-next,
+.carouselFade .carousel-item-prev,
+.carouselFade .carousel-item.active,
+.carouselFade .active.carousel-item-left,
+.carouselFade .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+}

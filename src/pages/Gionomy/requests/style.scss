@@ -1,0 +1,93 @@
+.MyGigRequests {
+  .active {
+    color: #5931ea;
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .card-container {
+    padding: 0.5rem;
+    p {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    p:nth-child(3) {
+      text-align: right;
+      margin-right: 10px;
+    }
+  }
+
+  .image {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .span-size {
+    font-size: 16px;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .card {
+    box-sizing: border-box;
+    margin: 0 0.25em 1rem;
+    width: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .media-object {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #8a8a8a;
+  }
+  .card-container {
+    padding-bottom: 35px;
+  }
+  .card {
+    .card-image {
+      width: 100%;
+      height: 100px;
+      background-size: cover;
+      background-position: center center;
+    }
+    p {
+      margin: 10px 0;
+    }
+    .price {
+      position: absolute;
+      bottom: 0px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      left: 0;
+      width: 100%;
+      p {
+        padding-left: 8px;
+      }
+    }
+  }
+  @media screen and (min-width: 40em) {
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    .card {
+      flex: 0 1 calc(50% - 1em);
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .card {
+      flex: 0 1 calc(25% - 1em);
+    }
+  }
+}

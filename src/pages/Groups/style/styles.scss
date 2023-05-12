@@ -1,0 +1,92 @@
+.myBlogsPage {
+  .filters {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    li {
+      margin: 5px 5px 5px 0;
+    }
+  }
+  .feedFilters {
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    .subtitle {
+      margin: 0;
+      margin-right: 20px;
+      width: 100px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      overflow-x: auto;
+      margin: 0 10px;
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      width: 100%;
+    }
+  }
+  .highlights {
+    margin-top: 20px;
+  }
+}
+
+.addBlogPage {
+  .codex-editor {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0;
+  }
+  .ce-block__content {
+    max-width: 100%;
+  }
+  .ce-toolbar__content {
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .form-control {
+    color: #888;
+  }
+  .DraftEditor-root,
+  .DraftEditor-container {
+    min-height: 200px;
+    border: 1px solid #ddd;
+  }
+  .public-DraftStyleDefault-block {
+    margin: 0 5px;
+  }
+  .uploadedImage {
+    width: 100px;
+    position: relative;
+    padding: 5px;
+    .remove {
+      z-index: 2;
+      color: #fff;
+      background: #111;
+      position: absolute;
+      padding: 3px 4px;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      line-height: 9px;
+      font-size: 10px;
+    }
+  }
+  .react-tags__search-input {
+    width: 100% !important;
+  }
+}

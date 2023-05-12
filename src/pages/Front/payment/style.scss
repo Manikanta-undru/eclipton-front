@@ -1,0 +1,187 @@
+.creditCardPage {
+  overflow: hidden;
+  nav {
+    margin-bottom: 25px;
+  }
+}
+.creditCardPage {
+  .text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  .swipelux_widget {
+    min-width: 23rem;
+    height: fit-content;
+    border: 5px solid rgba(135, 89, 242, 0.5);
+    border-radius: 12px;
+    padding: 34px 28px;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    text-size-adjust: none;
+    color: #828282;
+  }
+  .text-wrap {
+    white-space: normal !important;
+  }
+  .align-middle {
+    vertical-align: middle !important;
+  }
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+  h1 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .credit-block {
+    background-color: #ffffff;
+    padding: 46px 62px;
+    border-radius: 5px;
+  }
+  .credit-block label {
+    font-size: 18px;
+    color: #5832e0;
+  }
+  .credit-block .inputTextEntryArea {
+    border-color: #000;
+  }
+  .inputTextEntryArea {
+    display: flex;
+    border: 1px solid #e9ecfa;
+    padding: 0 10px;
+  }
+  .inputTextEntryArea input {
+    width: 100%;
+    flex-grow: 1;
+    border: none;
+  }
+  .credit-block .second-row {
+    margin-top: 30px;
+  }
+  input[type='text'] {
+    height: 50px;
+  }
+  .credit-block select {
+    border-left: 0;
+    border-color: #000;
+    box-shadow: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background: url('../../../assets//images/arrow-down.png');
+    background-repeat: no-repeat;
+    background-size: 11px 7px;
+    background-position: 97% 50%;
+    height: 50px;
+  }
+  .inside-input .input-group-text,
+  .inside-input select {
+    padding: 5px;
+    border: 0 !important;
+  }
+  .inside-input .input-group-text img {
+    width: 24px;
+  }
+  .inside-input {
+    width: 110px;
+  }
+  .btn-custom-1 {
+    background: #ffffff;
+    border-color: #2c4274;
+    color: #5931ea;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+  }
+  .btn-custom-1 {
+    background-color: #5832e0;
+    border: none;
+    color: #ffffff;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .credit-block .btn-custom-1 {
+    background-color: #5832e0;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  .credit-block .input-group-text {
+    border-right: 0;
+    border-color: #000;
+    background-color: transparent;
+    height: 50px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+.creditCardPage {
+  .logo {
+    img {
+      width: 165px;
+    }
+  }
+}
+
+.buyModal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background: #0000007a;
+  .buyModal_body {
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    .premium-design-price {
+      font-size: 1.4rem;
+      border-bottom: 1px solid #b5b5b5;
+      width: 100%;
+      padding-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.breadcrumb {
+  li {
+    text-align: left;
+    font-weight: bold;
+    padding-right: 10px;
+    &:before {
+      display: none;
+    }
+    &:after {
+      margin-left: 10px;
+      color: #6c757d;
+      content: '>';
+    }
+    &:last-child {
+      font-weight: normal;
+      color: #888;
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

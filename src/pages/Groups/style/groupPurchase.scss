@@ -1,0 +1,53 @@
+.groupPurchasedPlanAreaWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 5px rgba(234, 234, 234, 0.25);
+  border-radius: 6px;
+  gap: 10px;
+  padding: 17px;
+  .header {
+    span {
+      font-family: ProximaNova-Regular;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 16px;
+      color: #010947;
+    }
+  }
+  .hLine {
+    height: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+  }
+  .checkBoxArea {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 10px;
+    div {
+      display: flex;
+      align-items: center;
+    }
+    input[type='checkbox'] {
+      box-shadow: 0 0 0 0 !important;
+    }
+    label {
+      margin-bottom: 0 !important;
+    }
+  }
+  .accordian-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .more {
+      background-color: transparent;
+      color: #5832e0;
+    }
+  }
+}

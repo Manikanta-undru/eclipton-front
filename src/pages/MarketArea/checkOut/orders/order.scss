@@ -1,0 +1,247 @@
+.your-promotion-table-holder {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 25px;
+
+  .head {
+    display: grid;
+    grid-template-columns: auto 150px;
+    grid-gap: 20px;
+    margin-bottom: 25px;
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+
+    .left {
+      h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 22px;
+        color: #42434b;
+        margin: 5px 0 0;
+      }
+    }
+  }
+
+  .table-footer {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    text-align: center;
+
+    a {
+      color: var(--color-1);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+    }
+  }
+}
+
+.tabs-holder-dashboard {
+  .link-btn-2 {
+    padding: 3px 12px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #718096;
+    cursor: pointer;
+    margin: 0;
+
+    .badge {
+      display: inline-block;
+      width: 20px;
+      height: 15px;
+      border-radius: 30px;
+      text-align: center;
+      background: #333;
+      color: #fff;
+      font-weight: normal;
+    }
+  }
+
+  .input-link:checked + label,
+  .input-link + label.active {
+    font-size: 12px;
+    color: #1a202c;
+
+    .badge {
+      background: var(--color-1);
+    }
+  }
+
+  .border-line {
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .table-1 p {
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a1a5c5;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.dashboard-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #42434b;
+    margin-top: 5px;
+  }
+}
+
+.your-promotion {
+  input[type='checkbox'] {
+    box-shadow: none !important;
+  }
+
+  .table-1 th {
+    font-size: 12px;
+    line-height: 10px;
+    color: #42434b;
+    background: #f4f5fc;
+  }
+  .table-1 td {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.03em;
+    color: #42434b;
+    border: none;
+  }
+  .table-1 td:nth-child(2) {
+    width: 280px;
+  }
+  .dropdown-1 button {
+    background: transparent;
+    border: none;
+  }
+}
+
+$xsWidth: 561px;
+$smWidth: 767px;
+$mdWidth: 991px;
+
+.filters-and-menu {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #e9ecfa;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+
+  .top {
+    display: grid;
+    grid-template-columns: 180px auto 180px;
+    @media (max-width: $mdWidth) {
+      display: block;
+    }
+    > div {
+      position: relative;
+      .icon {
+        position: absolute;
+        left: 20px;
+        top: 11px;
+      }
+    }
+    select,
+    input,
+    button {
+      position: relative;
+      height: 45px;
+      border: none;
+      display: block;
+      width: 100%;
+    }
+    input,
+    select {
+      padding-left: 35px;
+    }
+    button {
+      text-align: center;
+      background: var(--color-1);
+      color: #fff;
+      font-size: 14px;
+      border-radius: 0;
+      margin: 0;
+    }
+    select {
+      width: 90%;
+    }
+    input {
+      border-left: 1px solid #e9ecfa;
+      border-right: 1px solid #e9ecfa;
+    }
+  }
+
+  .bottom {
+    border-top: 1px solid #e9ecfa;
+    padding: 0 15px;
+
+    a {
+      display: inline-block;
+      padding: 15px 20px;
+      color: #42434b;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+    }
+    a.active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.classifieds active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.deals active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.electronics active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.entertainment active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.family active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.hobbies active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.home_and_garden active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.housing active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+    a.vehicles active {
+      color: #5832e0;
+      border-bottom: 2px solid #5832e0;
+    }
+  }
+}

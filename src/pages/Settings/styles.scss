@@ -1,0 +1,167 @@
+.settingsPage {
+  .input {
+    // padding: 5px !important;
+    // line-height: 20px !important;
+    // height: 28px;
+    // max-width: 200px;
+    line-height: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 1px;
+    padding: 0px !important;
+    border-bottom: 1px solid #a5a5a5;
+    height: auto;
+  }
+  #switch {
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 10px;
+      padding: 5px 10px;
+      border-radius: 15px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      .fa {
+        width: 10px;
+        margin-right: 8px;
+      }
+      &.active,
+      &:hover {
+        color: #fff;
+        background-color: #5931ea;
+      }
+    }
+  }
+  .legend {
+    // border: 1px solid #ccd4ff;
+    // margin: 10px;
+    border-radius: 7px;
+    .legend-title {
+      padding: 10px;
+      color: #050505;
+      font-weight: 500;
+      // background: #e9ebfb;
+    }
+  }
+  .settings-body {
+    .widgetTitle {
+      color: #5931ea;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+  .srow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    label {
+      width: 100px;
+      font-size: 14px;
+      margin: 0;
+      flex-grow: 1;
+      font-weight: 400;
+      color: #6c757d;
+      &.big {
+        width: 50%;
+      }
+    }
+    .value {
+      font-size: 14px;
+      font-weight: 500;
+      width: 200px;
+      text-align: left;
+      margin-left: 0;
+      color: #050505;
+    }
+    .pointer {
+      .fa {
+        color: #5931ea;
+      }
+    }
+
+    .left {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 50%;
+      &.col {
+        flex-direction: column;
+      }
+      div {
+        font-size: 14px;
+        font-weight: 500;
+        color: #050505;
+      }
+      span {
+        display: block;
+        font-size: 10px;
+        color: #666;
+      }
+      .fa {
+        margin-right: 10px;
+        font-size: 20px;
+        color: #5931ea;
+        width: 16px;
+      }
+      .fa-desktop {
+        font-size: 14px;
+      }
+    }
+    .right {
+      display: flex;
+      color: #666;
+      align-items: center;
+      .pointer {
+        margin-left: 10px;
+        color: #999;
+        font-size: 16px;
+      }
+    }
+  }
+  .add-new {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: flex-start;
+    color: #5931ea;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 13px;
+    margin-bottom: 15px;
+    span {
+      margin-left: 10px;
+    }
+  }
+  .sItem {
+    p {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// / Chrome, Safari, Edge, Opera /
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// / Firefox /
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.SettingsMenus {
+  li {
+    font-size: 13px !important;
+    color: #212529;
+    &:hover {
+      font-size: 13px !important;
+      color: #212529;
+      font-weight: 500;
+    }
+  }
+}

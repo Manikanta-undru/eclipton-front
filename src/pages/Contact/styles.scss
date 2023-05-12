@@ -1,0 +1,89 @@
+.contactPage {
+  background: #fff;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    height: 10vh;
+    @media screen and (max-width: 570px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    img {
+      max-width: 136px;
+    }
+  }
+}
+.contactContainer {
+  box-sizing: border-box;
+  height: 90vh;
+  padding: 20px 40px 10px 40px;
+  @media screen and (max-width: 570px) {
+    height: auto;
+    padding-bottom: 120px;
+  }
+
+  form {
+    h1 {
+      margin-bottom: 20px;
+      @media screen and (max-width: 570px) {
+        text-align: center;
+      }
+    }
+  }
+  .contact-message {
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #7a8da4;
+    border: 1px solid #dee4f0;
+  }
+  .left-container {
+    padding-top: 1rem;
+    padding-left: 4rem;
+
+    height: 100%;
+    @media screen and (max-width: 570px) {
+      padding-left: 0rem;
+      margin-bottom: 1rem;
+    }
+    img {
+      max-width: 290px;
+      @media screen and (max-width: 570px) {
+        max-width: 160px;
+      }
+    }
+    .info {
+      padding: 10px;
+      max-width: 350px;
+      margin-top: 10px;
+      h4 {
+        font-size: 1.8rem;
+        @media screen and (max-width: 570px) {
+          font-size: 1.5rem;
+        }
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      span {
+        font-size: 0.9rem;
+        color: #5931ea;
+      }
+    }
+  }
+  .btn {
+    width: 150px;
+    margin: 0 auto;
+    height: 34px;
+    font-size: 1rem;
+  }
+  .terms {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,29 @@
+input[type='checkbox'] {
+  box-shadow: none !important;
+  position: relative;
+  z-index: 0;
+  height: 18px;
+  width: 18px;
+  top: 3px;
+  left: 1px;
+  font-size: 14px;
+  font-weight: 400;
+}
+input[type='radio'] {
+  box-shadow: none !important;
+  position: relative;
+  z-index: 0;
+  height: 18px;
+  width: 18px;
+  top: 3px;
+  left: 1px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dynamic {
+  li {
+    position: relative;
+    left: -26px;
+  }
+}
